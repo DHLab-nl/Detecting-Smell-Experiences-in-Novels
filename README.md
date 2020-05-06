@@ -129,7 +129,7 @@ The are syntax-simplified patterns identified from examining terminal output of 
 * chunks are denoted by <>
 e.g. <noun> <smells_VERB> <prep> <noun>
 
-* where <noun> is a noun phrase defined by the pattern "det__* poss__* __PART* <adj>* compound__* _-_* __NOUN|PRON|PROPN+ {_and|,|or_* det__* <adj>* compound__* _-_* __NOUN|PRON|PROPN+}*"
+* where e.g., \<noun> is a noun phrase defined by the pattern "det__* poss__* __PART* <adj>* compound__* _-_* __NOUN|PRON|PROPN+ {_and|,|or_* det__* <adj>* compound__* _-_* __NOUN|PRON|PROPN+}*"
 
 CHUNKS.py
 ----
