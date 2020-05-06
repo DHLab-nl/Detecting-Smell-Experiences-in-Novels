@@ -96,7 +96,7 @@ _compare parsed extracts to patterns in PATTERNS.py_
 
 * collect extracts to matching pattern, output to terminal for view
 * output to terminal all extracts not yet matched
-* returns lexicon.json; a lexicon of matched smell-related vocabulary
+* returns lexicon.json; a lexicon of matched smell-related vocabulary (terms subtended with [] in PATTERNS.py, pattern definition)
 
     $ python3 collect_by_pattern2.py parsed_extracts.json
 
