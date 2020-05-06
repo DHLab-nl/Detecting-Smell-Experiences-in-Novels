@@ -1,7 +1,7 @@
 """Iterate over harvesting.csv entries and extract sentences with seed words.
 
 Example:
-    $ python3 extract_text.py seed_file.txt
+    $ python3 extract_text.py seeds.txt
 
 Args:
     seed_file.txt: a list of word_POS seeds, one on each line

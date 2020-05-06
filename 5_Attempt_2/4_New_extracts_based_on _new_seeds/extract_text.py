@@ -71,7 +71,7 @@ def main():
         lexicon = json.load(f)
 
     # load previous extracts
-    previous_extracts_file = "previous extracts.json"
+    previous_extracts_file = "previous_extracts.json"
     with open(previous_extracts_file, "r") as f:
         previous_extracts = json.load(f)
 

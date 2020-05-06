@@ -30,6 +30,15 @@ _various plots from 2a data_
 
 yet to be finalised
 
+
+----
+2c_Assemble_datasets/
+----
+_in order of descending frequency of smell vocab, select 'literature' sources_
+
+found.csv = harvesting/ validation set 
+separated into harvesting.csv and validation.csv
+
 ----
 3_Compare_toolkits/
 ----
