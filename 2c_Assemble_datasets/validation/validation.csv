@@ -1,0 +1,49 @@
+,freq.,title,author,words,code
+0,389,The PG Compilation of Short Stories of Chekhov,Anton Chekov,"['smell', 'scent', 'stench', 'acrid', 'sniff', 'reek', 'perfume', 'ripe', 'stink', 'musk', 'fragrance', 'savour', 'pungent', 'scented', 'odour', 'whiff', 'musty', 'bouquet', 'putrid']",57333
+1,256,"The Project Gutenberg Edition of The French Immortals""",Various,"['scented', 'scent', 'acrid', 'smell', 'pungent', 'aroma', 'bouquet', 'aromatic', 'perfume', 'fragrance', 'ripe', 'musty', 'fetid', 'waft', 'stench', 'whiff', 'musk']",4000
+2,191,"Three Cities Trilogy, Complete",Émile Zola,"['odour', 'ripe', 'acrid', 'malodorous', 'smell', 'perfume', 'scented', 'pungent', 'bouquet', 'savour', 'aroma', 'scent', 'ripeness', 'fragrance', 'aromatic', 'stench', 'musty', 'reek', 'odorous', 'fetid']",9170
+3,183,The Fat and the Thin,Emile Zola,"['fetid', 'perfume', 'pungency', 'smell', 'whiff', 'odour', 'bouquet', 'scent', 'pungent', 'odorous', 'aromatic', 'scented', 'ripeness', 'aroma', 'malodorous', 'acrid', 'stench', 'waft', 'ripe', 'musky', 'sniff', 'reek', 'musty', 'fragrance', 'musk', 'putrid']",5744
+4,160,"The Forsyte Saga, Complete",John Galsworthy,"['ripeness', 'sniff', 'scented', 'perfume', 'aroma', 'fragrance', 'scent', 'ripe', 'savour', 'odour', 'reek', 'smell', 'acrid', 'bouquet', 'aromatic', 'musk', 'musty', 'fusty', 'whiff', 'stink']",4397
+5,147,Ulysses,James Joyce,"['odour', 'musk', 'reek', 'smell', 'acrid', 'stench', 'scented', 'perfume', 'fragrance', 'pungent', 'aromatic', 'bouquet', 'whiff', 'ripe', 'stink', 'savour', 'musty', 'aroma', 'scent', 'waft', 'sniff', 'putrid', 'fetid']",4300
+6,132,Fairy Tales of Hans Christian Andersen,Hans Christian Andersen,"['perfume', 'smell', 'fragrance', 'bouquet', 'ripe', 'scent', 'musty', 'putrid', 'stench', 'scented']",27200
+7,131,"Original Short Stories, Complete",Guy de Maupassant,"['musty', 'ripe', 'fragrance', 'scent', 'smell', 'whiff', 'perfume', 'scented', 'bouquet', 'stench', 'ripeness', 'pungent', 'putrid']",3090
+8,129,"Hung Lou Meng, Book I",Cao Xueqin,"['scented', 'fragrance', 'smell', 'perfume', 'whiff', 'musk', 'bouquet', 'aroma', 'scent', 'odour', 'musky']",9603
+9,125,Kazan,James Oliver Curwood,"['scent', 'perfume', 'smell', 'scented', 'sniff', 'pungent', 'aroma', 'ripe', 'whiff']",10084
+10,120,Great Possessions,David Grayson,"['odour', 'smell', 'fragrance', 'sniff', 'whiff', 'scent', 'scented', 'ripe', 'aroma', 'bouquet', 'musty']",10593
+11,109,Three Soldiers,John Dos Passos,"['smell', 'odour', 'stink', 'putrid', 'fetid', 'stench', 'reek', 'musty', 'acrid', 'ripe', 'fragrance', 'scent', 'scented', 'perfume', 'pungent', 'whiff', 'bouquet']",6362
+12,103,"Hung Lou Meng, Book II",Cao Xueqin,"['scented', 'scent', 'whiff', 'smell', 'fragrance', 'ripe', 'perfume', 'bouquet', 'aroma', 'stench', 'acrid', 'sniff', 'pungent', 'musk']",9604
+13,97,Complete Prose Works,Walt Whitman,"['perfume', 'bouquet', 'aromatic', 'aroma', 'smell', 'scent', 'pungent', 'odorous', 'ripe', 'scented', 'acrid', 'redolence', 'musty', 'reek', 'ripeness', 'putrid', 'waft', 'fragrance', 'musk', 'pungency']",8813
+14,93,The Romance of Leonardo da Vinci,Dmitry Sergeyevich Merezhkovsky,"['waft', 'odour', 'odorous', 'perfume', 'smell', 'ripe', 'musk', 'scent', 'pungent', 'putrid', 'fetid', 'scented', 'fragrance', 'savour', 'stench', 'malodorous']",47902
+15,93,The Young Physician,Francis Brett Young,"['smell', 'scent', 'perfume', 'odour', 'musty', 'acrid', 'savour', 'ripe', 'aromatic', 'sniff', 'scented', 'whiff', 'bouquet', 'pungent', 'fragrance', 'stink', 'frowsty']",49331
+16,89,The Moghul,Thomas Hoover,"['perfume', 'musty', 'smell', 'musk', 'acrid', 'stink', 'bouquet', 'scent', 'fragrance', 'pungent', 'aroma', 'musky', 'ripe', 'scented']",34322
+17,88,The Human Boy Again,Eden Phillpotts,"['smell', 'scent', 'ripe', 'scented', 'putrid']",47198
+18,88,Les Miserables,Victor Hugo,"['scent', 'perfume', 'smell', 'ripe', 'scented', 'fetid', 'bouquet', 'acrid', 'stink', 'putrid']",135
+19,87,Shadows of Flames,Amelie Rives,"['odour', 'smell', 'perfume', 'waft', 'scent', 'fragrance', 'stink', 'acrid', 'musty', 'pungent', 'whiff', 'sniff', 'savour', 'scented', 'ripe', 'reek', 'aroma', 'musky']",33234
+20,86,The String of Pearls,James Malcolm Rymer,"['aroma', 'ripe', 'scent', 'odour', 'stench', 'smell', 'pungent', 'stink', 'fetid', 'scented', 'sniff', 'perfume', 'putrid']",59828
+21,83,"The Modern Scottish Minstrel, Volumes I-VI.",Various,"['ripe', 'smell', 'perfume', 'waft', 'scent', 'scented', 'fragrance', 'putrid', 'pungent', 'reek', 'odour', 'aroma']",22515
+22,83,"The Book of The Thousand Nights And A Night, Vol. 8 of 16",Unknown,"['sniff', 'ripe', 'musk', 'savour', 'pungency', 'scent', 'perfume', 'fragrance', 'smell', 'scented', 'reek', 'waft', 'musky', 'odour', 'aromatic']",3442
+23,82,Folle-Farine,Ouida,"['fetid', 'smell', 'ripe', 'pungent', 'fragrance', 'aromatic', 'acrid', 'scent', 'odorous', 'stink', 'reek', 'perfume', 'waft', 'stench']",39745
+24,81,The Octopus,Frank Norris,"['odour', 'reek', 'scented', 'whiff', 'pungent', 'scent', 'smell', 'aroma', 'perfume', 'ripe', 'acrid', 'odorous', 'fragrance', 'bouquet', 'musty']",268
+25,81,The poems of Heine; Complete,Heinrich Heine,"['smell', 'fragrance', 'perfume', 'scent', 'odour', 'scented', 'stink', 'stench', 'musty', 'fetid', 'musk']",52882
+26,81,Peter and Alexis,Dmitri Merejkowski,"['scent', 'smell', 'scented', 'odour', 'ripe', 'stench', 'perfume', 'putrid', 'fetid', 'sniff', 'aroma', 'waft']",61235
+27,80,Eight Years' Wandering in Ceylon,Samuel White Baker,"['musk', 'putrid', 'ripe', 'smell', 'scent', 'aromatic', 'perfume', 'pungent', 'aroma', 'acrid', 'fetid', 'stench']",2036
+28,79,The Grizzly King,James Oliver Curwood,"['smell', 'scent', 'sniff', 'odour', 'savour', 'perfume', 'scented', 'fragrance', 'pungent', 'aroma']",10977
+29,78,"The Book of The Thousand Nights And A Night, Vol. 1 of 16",Unknown,"['smell', 'sniff', 'aromatic', 'perfume', 'scented', 'musk', 'stench', 'pungency', 'ripe', 'scent', 'fragrance', 'waft', 'odour', 'musky', 'savour', 'odorous', 'pungent']",3435
+30,78,The Hesperides & Noble Numbers: Vol. 1 and 2,Robert Herrick,"['perfume', 'odour', 'scent', 'ripe', 'smell', 'aromatic', 'savour', 'waft', 'stink', 'musky']",22421
+31,78,Nana and Other Stories,Emile Zola,"['scent', 'bouquet', 'musty', 'smell', 'perfume', 'pungent', 'ripe', 'sniff', 'whiff', 'reek', 'musky', 'pungency', 'musk', 'fetid', 'scented', 'acrid']",1069
+32,77,Shasta of the Wolves,Olaf Baker,"['scent', 'smell', 'whiff', 'sniff', 'waft', 'scented', 'pungent', 'odour']",59576
+33,76,The Romance of a Plain Man,Ellen Glasgow,"['smell', 'aroma', 'odour', 'scented', 'musk', 'musty', 'fragrance', 'ripe', 'odorous', 'scent', 'perfume', 'pungent', 'aromatic', 'waft']",30299
+34,76,Poems,Madison Cawein,"['aroma', 'fragrance', 'odorous', 'scent', 'perfume', 'ripe', 'musk', 'smell', 'aromatic', 'acrid', 'musky', 'scented', 'ripeness']",7796
+35,76,War and Peace,by Leo Tolstoy,"['scented', 'smell', 'scent', 'acrid', 'perfume', 'malodorous', 'whiff', 'pungent', 'stench', 'aromatic', 'bouquet', 'aroma', 'stink', 'reek', 'fragrance', 'ripe']",2600
+36,75,That Which Hath Wings,Richard Dehan,"['stink', 'ripeness', 'pungent', 'whiff', 'odorous', 'bouquet', 'fragrance', 'perfume', 'ripe', 'waft', 'acrid', 'musky', 'reek', 'putrid', 'scent', 'smell', 'scented', 'sniff', 'odour', 'savour', 'stench']",51428
+37,75,"The Three Cities Trilogy: Rome, Complete",Emile Zola,"['savour', 'ripe', 'scent', 'bouquet', 'perfume', 'ripeness', 'fragrance', 'aroma', 'pungent', 'odour', 'acrid', 'smell', 'aromatic', 'scented', 'stench', 'musty', 'reek', 'malodorous', 'odorous']",8726
+38,73,Vandover and the Brute,Frank Norris,"['smell', 'bouquet', 'whiff', 'musk', 'scent', 'perfume', 'odorous', 'savour', 'odour', 'ripe', 'reek', 'acrid', 'stench', 'fragrance', 'aromatic']",14712
+39,73,The Melody of Earth,Various,"['fragrance', 'scent', 'perfume', 'odorous', 'musk', 'pungent', 'scented', 'smell', 'sniff', 'ripe', 'odour', 'aroma', 'whiff']",38438
+40,73,Brood of the Witch-Queen,Sax Rohmer,"['pungent', 'perfume', 'smell', 'scent', 'odour', 'fusty', 'putrid', 'pungency', 'aroma', 'whiff', 'fetid', 'fragrance', 'odorous', 'acrid']",19706
+41,73,His Masterpiece,Emile Zola,"['bouquet', 'scent', 'fragrance', 'whiff', 'stench', 'odour', 'musk', 'smell', 'musty', 'pungent', 'aromatic', 'perfume', 'scented', 'aroma', 'ripe', 'reek', 'sniff', 'waft', 'acrid']",15900
+42,73,A Prince of Dreamers,Flora Annie Steel,"['perfume', 'scent', 'musk', 'scented', 'sniff', 'smell', 'ripe', 'savour']",39810
+43,73,Pipe and Pouch,Various,"['scent', 'fragrance', 'ripe', 'scented', 'perfume', 'waft', 'odorous', 'bouquet', 'smell', 'aroma', 'whiff', 'musk', 'acrid', 'reek', 'aromatic']",14887
+44,72,The Hill of Dreams,Arthur Machen,"['smell', 'odour', 'scented', 'ripe', 'acrid', 'putrid', 'savour', 'stench', 'scent', 'perfume', 'aromatic', 'pungent', 'aroma', 'fetid', 'musty', 'reek']",13969
+45,71,The Life of a Foxhound,John Mills,"['waft', 'scented', 'scent', 'odour', 'smell']",52307
+46,71,"The Home Book of Verse, Vol. 2",Burton Egbert Stevenson,"['stench', 'ripe', 'scent', 'perfume', 'fragrance', 'ripeness', 'smell', 'musk', 'musty', 'waft', 'odorous']",2620
+47,71,The Death of the Gods,Dmitri Mérejkowski,"['odorous', 'odour', 'acrid', 'smell', 'perfume', 'aroma', 'fetid', 'scented', 'fusty', 'ripe', 'putrid', 'fragrance', 'musty', 'aromatic', 'stink', 'scent']",46492

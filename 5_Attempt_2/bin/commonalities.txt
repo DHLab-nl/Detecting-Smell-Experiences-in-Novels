@@ -1,0 +1,204 @@
+( NOUN ) ( ) ( NOUN )( nsubj ) ( aux VERB ) ( ROOT VERB ) ( NOUN )( ROOT ) ( prep ADP ) ( pobj NOUN )
+
+( nsubj ) ( aux VERB ) ( ROOT VERB ) ( NOUN )
+
+
+
+det_the_DET prep_of_ADP det_the_DET punct_._PUNCT
+
+det_The_DET cc_and_CCONJ det_the_DET
+
+nsubj_Dick_PROPN punct_._PUNCT
+
+cc_and_CCONJ punct_._PUNCT
+
+det_the_DET prep_with_ADP punct_._PUNCT
+
+nsubj_smell_NOUN prep_of_ADP
+
+nsubj_It_PRON
+
+nsubj_he_PRON
+
+det_the_DET prep_of_ADP punct_._PUNCT
+
+ROOT_smell_VERB cc_and_CCONJ
+
+det_a_DET punct_,_PUNCT punct_._PUNCT
+
+nsubj_I_PRON det_the_DET punct_._PUNCT
+
+det_the_DET prep_of_ADP det_the_DET punct_!_PUNCT
+
+det_the_DET prep_of_ADP det_the_DET prep_in_ADP poss_my_DET pobj_nostrils_NOUN punct_._PUNCT
+
+prep_of_ADP cc_and_CCONJ
+
+nsubj_I_PRON det_the_DET
+
+ROOT_smell_VERB det_the_DET
+
+prep_with_ADP punct_,_PUNCT
+
+cc_and_CCONJ det_the_DET prep_of_ADP det_the_DET
+
+punct_--_PUNCT appos_reek_NOUN
+
+ROOT_smell_NOUN prep_of_ADP punct_._PUNCT
+
+pobj_villages_NOUN punct_._PUNCT
+
+punct_,_PUNCT cc_and_CCONJ
+
+prep_of_ADP punct_-_PUNCT
+
+case_'s_PART cc_and_CCONJ det_the_DET
+
+punct_--_PUNCT det_a_DET punct_._PUNCT
+
+det_the_DET
+
+prep_of_ADP
+
+cc_and_CCONJ
+
+nsubj_I_PRON
+
+prep_of_ADP cc_and_CCONJ punct_._PUNCT
+
+ROOT_smells_VERB
+
+det_a_DET det_the_DET punct_._PUNCT
+
+det_the_DET prep_of_ADP pobj_water_NOUN
+
+cc_and_CCONJ prep_of_ADP det_the_DET punct_._PUNCT
+
+det_the_DET prep_in_ADP punct_._PUNCT
+
+det_the_DET pobj_smell_NOUN prep_of_ADP det_the_DET punct_-_PUNCT
+
+det_the_DET prep_with_ADP det_a_DET punct_._PUNCT
+
+prep_of_ADP poss_my_DET
+
+det_the_DET prep_of_ADP poss_my_DET
+
+prep_of_ADP det_the_DET
+
+aux_could_VERB ROOT_smell_VERB det_the_DET
+
+aux_could_VERB ROOT_smell_VERB cc_and_CCONJ det_the_DET
+
+cc_and_CCONJ det_the_DET
+
+punct_,_PUNCT
+
+det_the_DET ROOT_smell_NOUN prep_of_ADP det_the_DET punct_._PUNCT
+
+prep_of_ADP punct_--_PUNCT det_the_DET
+
+prep_of_ADP punct_,_PUNCT punct_._PUNCT
+
+det_the_DET ROOT_smell_NOUN prep_of_ADP cc_and_CCONJ
+
+det_the_DET pobj_smell_NOUN det_the_DET
+
+prep_of_ADP det_the_DET punct_._PUNCT
+
+punct_,_PUNCT cc_and_CCONJ punct_._PUNCT
+
+mark_as_SCONJ
+
+ROOT_reek_NOUN
+
+cc_and_CCONJ det_the_DET prep_of_ADP det_the_DET prep_in_ADP
+
+det_The_DET det_the_DET
+
+punct_-_PUNCT
+
+cc_and_CCONJ det_the_DET punct_._PUNCT
+
+nsubj_smell_NOUN
+
+pobj_smell_NOUN prep_of_ADP det_the_DET
+
+punct_,_PUNCT det_the_DET
+
+case_'s_PART
+
+ROOT_smell_VERB det_the_DET punct_._PUNCT
+
+punct_._PUNCT
+
+punct_,_PUNCT punct_,_PUNCT
+
+prep_with_ADP punct_._PUNCT
+
+ROOT_smell_VERB
+
+det_the_DET prep_of_ADP cc_and_CCONJ
+
+punct_,_PUNCT mark_as_SCONJ
+
+det_the_DET ROOT_smell_NOUN prep_of_ADP
+
+punct_--_PUNCT
+
+det_the_DET dobj_smell_NOUN prep_of_ADP
+
+nsubj_I_PRON ROOT_smell_VERB det_the_DET
+
+case_'s_PART cc_and_CCONJ
+
+nsubj_I_PRON cc_and_CCONJ det_the_DET
+
+punct_,_PUNCT punct_._PUNCT
+
+det_the_DET poss_his_DET
+
+det_the_DET prep_of_ADP
+
+det_the_DET nsubj_smell_NOUN
+
+det_the_DET pobj_smell_NOUN prep_of_ADP det_the_DET punct_._PUNCT
+
+det_the_DET det_the_DET punct_._PUNCT
+
+det_The_DET prep_of_ADP
+
+aux_to_PART
+
+det_the_DET prep_of_ADP det_the_DET
+
+prep_with_ADP
+
+ROOT_smell_VERB punct_._PUNCT
+
+det_the_DET prep_in_ADP
+
+punct_-_PUNCT punct_._PUNCT
+
+det_a_DET det_the_DET punct_"_PUNCT
+
+ROOT_was_AUX det_a_DET
+
+det_The_DET
+
+prep_of_ADP punct_._PUNCT
+
+prep_of_ADP punct_-_PUNCT punct_._PUNCT
+
+det_the_DET prep_of_ADP prep_in_ADP punct_._PUNCT
+
+det_the_DET det_the_DET
+
+det_the_DET punct_._PUNCT
+
+ROOT_reek_NOUN prep_of_ADP
+
+ROOT_smell_NOUN prep_of_ADP
+
+cc_and_CCONJ det_the_DET prep_of_ADP det_the_DET punct_._PUNCT
+

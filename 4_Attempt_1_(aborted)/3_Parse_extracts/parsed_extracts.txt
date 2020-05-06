@@ -1,0 +1,94 @@
+( det All DET ) ( nsubj spring NOUN ) ( aux shall VERB ) ( ROOT give VERB ) ( compound thee NOUN ) ( dobj fragrance NOUN ) 
+
+( nsubj I PRON ) ( aux will VERB ) ( ROOT scent VERB ) ( dobj 'em PRON ) ( prep with ADP ) ( amod best ADJ ) ( pobj vanilla NOUN ) 
+
+( ROOT reek NOUN ) ( prep of ADP ) ( pobj smoke NOUN ) 
+
+( det The DET ) ( ROOT stench NOUN ) ( prep of ADP ) ( det the DET ) ( pobj marshes NOUN ) ( punct -- PUNCT ) ( det the DET ) ( appos raw ADJ ) ( punct , PUNCT ) ( acl piercing VERB ) ( dobj smell NOUN ) ( advmod When ADV ) ( det the DET ) ( nmod overhand NOUN ) ( compound stabbing NOUN ) ( punct - PUNCT ) ( nsubj cut VERB ) ( advcl silenced VERB ) ( det the DET ) ( dobj yell NOUN ) 
+
+( mark For ADP ) ( nsubj he PRON ) ( ROOT carries VERB ) ( det the DET ) ( dobj taint NOUN ) ( prep of ADP ) ( det a DET ) ( amod musky NOUN ) ( pobj ship NOUN ) ( punct -- PUNCT ) ( det the DET ) ( appos reek NOUN ) ( prep of ADP ) ( det the DET ) ( poss slaver NOUN ) ( case 's PART ) ( pobj dhow NOUN ) ( punct ! PUNCT ) ( punct " PUNCT ) 
+
+( amod spicy ADJ ) ( nsubj garlic PROPN ) ( ROOT smells VERB ) 
+
+( det a DET ) ( amod most ADV ) ( compound sickening NOUN ) ( nsubj stench NOUN ) ( ROOT pervaded VERB ) ( det the DET ) ( amod entire ADJ ) ( dobj amphitheatre NOUN ) ( punct -- PUNCT ) ( det a DET ) ( compound stench NOUN ) ( appos fouler NOUN ) ( prep than SCONJ ) ( pobj any DET ) ( pobj which DET ) ( poss my DET ) ( nsubj wanderings NOUN ) ( prep in ADP ) ( amod Indian ADJ ) ( pobj villages NOUN ) ( aux have AUX ) ( relcl introduced VERB ) ( dobj me PRON ) ( prep to PART ) ( punct . PUNCT ) 
+
+( compound Gunga PROPN ) ( nsubj Dass PROPN ) ( punct , PUNCT ) ( advmod indeed ADV ) ( punct , PUNCT ) ( advmod when ADV ) ( nsubj he PRON ) ( aux had AUX ) ( advcl banked VERB ) ( det the DET ) ( dobj embers NOUN ) ( prep of ADP ) ( poss his DET ) ( pobj fire NOUN ) ( prep with ADP ) ( pobj sand NOUN ) ( punct , PUNCT ) ( ROOT was AUX ) ( prep at ADP ) ( det some DET ) ( pobj pains NOUN ) ( aux to PART ) ( advcl throw VERB ) ( predet half DET ) ( det a DET ) ( dobj cupful NOUN ) ( prep of ADP ) ( compound fetid ADJ ) ( pobj water NOUN ) ( prep over ADP ) ( poss my DET ) ( pobj head NOUN ) 
+
+( nsubj I PRON ) ( ROOT staggered VERB ) ( punct , PUNCT ) ( npadvmod numbed ADJ ) ( cc and CCONJ ) ( conj helpless ADJ ) ( punct , PUNCT ) ( prep toward ADP ) ( det the DET ) ( amod fetid ADJ ) ( pobj burrow NOUN ) ( acl allotted VERB ) ( prep to ADP ) ( pobj me PRON ) ( punct , PUNCT ) ( cc and CCONJ ) ( conj fell VERB ) ( acomp asleep ADJ ) ( punct . PUNCT ) 
+
+( ROOT from ADP ) ( det the DET ) ( pobj smell NOUN ) ( prep in ADP ) ( det the DET ) ( pobj courtyard NOUN ) 
+
+( nsubj It PRON ) ( ROOT smells VERB ) ( xcomp comforting VERB ) 
+
+( det the DET ) ( nsubj house NOUN ) ( ROOT reeked VERB ) ( prep with ADP ) ( det the DET ) ( pobj smell NOUN ) ( prep of ADP ) ( det the DET ) ( poss Condy PROPN ) ( case 's PART ) ( nmod Fluid PROPN ) ( punct , PUNCT ) ( compound chlorine NOUN ) ( punct - PUNCT ) ( conj water NOUN ) ( punct , PUNCT ) ( cc and CCONJ ) ( compound carbolic ADJ ) ( conj acid NOUN ) ( pobj washes NOUN ) ( punct . PUNCT ) 
+
+( expl There PRON ) ( ROOT was AUX ) ( det a DET ) ( amod burning VERB ) ( amod hot ADJ ) ( attr wind NOUN ) ( acl blowing VERB ) ( nsubj that DET ) ( relcl brought VERB ) ( prt up ADP ) ( det a DET ) ( dobj stench NOUN ) ( prep of ADP ) ( amod stale ADJ ) ( compound brick NOUN ) ( punct - PUNCT ) ( pobj kilns NOUN ) ( prep with ADP ) ( pobj it PRON ) 
+
+( ROOT reek NOUN ) ( prep like SCONJ ) ( det the DET ) ( pobj smell NOUN ) ( prep of ADP ) ( det the DET ) ( pobj Pit PROPN ) ( prep in ADP ) ( poss my DET ) ( pobj nostrils NOUN ) ( punct . PUNCT ) 
+
+( det the DET ) ( nsubjpass room NOUN ) ( auxpass was AUX ) ( ROOT filled VERB ) ( prep with ADP ) ( det a DET ) ( advmod most ADV ) ( amod pungent ADJ ) ( cc and CCONJ ) ( conj sickening NOUN ) ( pobj stench NOUN ) ( punct -- PUNCT ) ( det a DET ) ( appos reek NOUN ) ( nsubj that DET ) ( relcl took VERB ) ( amod fierce ADJ ) ( dobj hold NOUN ) ( prep of ADP ) ( det the DET ) ( pobj trap NOUN ) ( prep of ADP ) ( poss your DET ) ( pobj windpipe NOUN ) ( cc and CCONJ ) ( conj shut VERB ) ( dobj it PRON ) ( punct . PUNCT ) 
+
+( advmod So ADV ) ( advmod now ADV ) ( nsubj we PRON ) ( aux 've AUX ) ( ROOT got VERB ) ( det the DET ) ( nsubj sticks NOUN ) ( ccomp mixed VERB ) ( prep with ADP ) ( det a DET ) ( pobj lot NOUN ) ( prep of ADP ) ( pobj glue NOUN ) ( punct , PUNCT ) ( cc and CCONJ ) ( nsubj they PRON ) ( conj take VERB ) ( amod half ADJ ) ( punct - PUNCT ) ( det an DET ) ( punct - PUNCT ) ( npadvmod hour NOUN ) ( advmod longer ADV ) ( aux to PART ) ( xcomp burn VERB ) ( punct , PUNCT ) ( cc and CCONJ ) ( compound smell PROPN ) ( conj stinky PROPN ) ( punct . PUNCT ) 
+
+( det the DET ) ( ROOT smell NOUN ) ( prep of ADP ) ( det the DET ) ( pobj room NOUN ) ( punct . PUNCT ) 
+
+( amod lamentable ADJ ) ( ROOT smell NOUN ) ( prep of ADP ) ( amod dead ADJ ) ( pobj weed NOUN ) ( punct . PUNCT ) 
+
+( det The DET ) ( amod indescribable ADJ ) ( ROOT scent NOUN ) ( prep of ADP ) ( compound Nile PROPN ) ( pobj mud NOUN ) 
+
+( det the DET ) ( ROOT smell NOUN ) ( prep of ADP ) ( pobj dust NOUN ) ( cc and CCONJ ) ( conj leather NOUN ) 
+
+( compound kerosene PROPN ) ( nsubj lamps PROPN ) ( ROOT began VERB ) ( aux to PART ) ( xcomp smell VERB ) 
+
+( ROOT smelt VERB ) ( det the DET ) ( dobj smell NOUN ) ( prep of ADP ) ( pcomp cooking NOUN ) ( dobj meats NOUN ) 
+
+( poss Your DET ) ( nsubj things NOUN ) ( ROOT smell VERB ) ( prep of ADP ) ( pobj tobacco NOUN ) ( cc and CCONJ ) ( conj blood NOUN ) ( punct . PUNCT ) 
+
+( det the DET ) ( nsubj smell NOUN ) ( prep of ADP ) ( amod open ADJ ) ( pobj water NOUN ) ( ROOT makes VERB ) ( nsubj me PRON ) ( ccomp restless NOUN ) ( punct . PUNCT ) 
+
+( nsubj It PRON ) ( ROOT was AUX ) ( det a DET ) ( amod thick ADJ ) ( attr day NOUN ) ( punct , PUNCT ) ( cc but CCONJ ) ( det the DET ) ( nsubj sea NOUN ) ( conj smelt VERB ) ( acomp good NOUN ) ( punct . PUNCT ) ( punct " PUNCT ) 
+
+( nsubj I PRON ) ( aux do AUX ) ( neg n't PART ) ( ROOT like VERB ) ( det the DET ) ( dobj smell NOUN ) ( prep of ADP ) ( det the DET ) ( pobj engines NOUN ) ( punct .... PUNCT ) ( compound Poor ADJ ) ( ROOT Dick PROPN ) ( punct ! PUNCT ) 
+
+( nsubj I PRON ) ( aux can VERB ) ( ROOT smell VERB ) ( det the DET ) ( dobj trees NOUN ) ( punct . PUNCT ) 
+
+( det the DET ) ( ROOT smell NOUN ) ( prep of ADP ) ( pobj paint NOUN ) ( cc and CCONJ ) ( conj turpentine NOUN ) 
+
+( cc and CCONJ ) ( aux could VERB ) ( ROOT smell VERB ) ( det the DET ) ( amod acrid PROPN ) ( compound wood NOUN ) ( punct - PUNCT ) ( dobj smoke NOUN ) ( mark as SCONJ ) ( nsubj it PRON ) ( advcl drifted VERB ) ( prep over ADP ) ( pobj camp NOUN ) ( prep before ADP ) ( det the DET ) ( pobj wind NOUN ) ( prep of ADP ) ( det the DET ) ( pobj desert NOUN ) ( punct . PUNCT ) 
+
+( det the DET ) ( ROOT reek NOUN ) ( prep of ADP ) ( pobj oil NOUN ) ( cc and CCONJ ) ( conj paint NOUN ) 
+
+( ROOT filled VERB ) ( poss his DET ) ( dobj nostrils NOUN ) ( prep with ADP ) ( det the DET ) ( advmod well ADV ) ( punct - PUNCT ) ( amod remembered VERB ) ( pobj smell NOUN ) ( prep of ADP ) ( det the DET ) ( pobj East PROPN ) ( punct , PUNCT ) ( nsubj that DET ) ( relcl runs VERB ) ( prep without ADP ) ( det a DET ) ( pobj change NOUN ) ( prep from ADP ) ( det the DET ) ( compound Canal PROPN ) ( pobj head NOUN ) ( prep to ADP ) ( compound Hong PROPN ) ( punct - PUNCT ) ( pobj Kong PROPN ) 
+
+( det The DET ) ( nsubj smell NOUN ) ( ROOT reminded VERB ) ( dobj Dick PROPN ) ( prep of ADP ) ( compound Monsieur PROPN ) ( pobj Binat PROPN ) 
+
+( nsubj Dick PROPN ) ( ROOT snuffed VERB ) ( det the DET ) ( dobj smell NOUN ) ( prep of ADP ) ( amod parched VERB ) ( pobj dust NOUN ) ( punct , PUNCT ) ( amod heated ADJ ) ( conj iron NOUN ) ( punct , PUNCT ) ( cc and CCONJ ) ( conj flaking VERB ) ( dobj paint NOUN ) ( prep with ADP ) ( pobj delight NOUN ) ( punct . PUNCT ) 
+
+( nsubj Dick PROPN ) ( ROOT stretched VERB ) ( dobj himself PRON ) ( prep on ADP ) ( det the DET ) ( pobj floor NOUN ) ( punct , PUNCT ) ( advcl wild ADJ ) ( prep with ADP ) ( pobj delight NOUN ) ( prep at ADP ) ( det the DET ) ( pobj sounds NOUN ) ( cc and CCONJ ) ( det the DET ) ( conj smells NOUN ) ( punct . PUNCT ) 
+
+( nsubj He PRON ) ( aux could VERB ) ( advmod only ADV ) ( ROOT smell VERB ) ( det the DET ) ( dobj camels NOUN ) ( punct , PUNCT ) ( det the DET ) ( compound hay PROPN ) ( punct - PUNCT ) ( conj bales PROPN ) ( punct , PUNCT ) ( det the DET ) ( conj cooking NOUN ) ( punct , PUNCT ) ( det the DET ) ( compound smoky ADJ ) ( conj fires NOUN ) ( punct , PUNCT ) ( cc and CCONJ ) ( det the DET ) ( amod tanned VERB ) ( conj canvas NOUN ) ( prep of ADP ) ( det the DET ) ( pobj tents NOUN ) ( mark as SCONJ ) ( nsubj he PRON ) ( advcl stood VERB ) 
+
+( nsubj I PRON ) ( ROOT smell VERB ) ( det the DET ) ( dobj dawn NOUN ) 
+
+( mark as SCONJ ) ( expl there PRON ) ( advcl came VERB ) ( prt down ADP ) ( ROOT wind NOUN ) ( det the DET ) ( amod pungent ADJ ) ( dobj reek NOUN ) ( prep of ADP ) ( pobj camels NOUN ) ( prep in ADP ) ( det the DET ) ( pobj square NOUN ) ( punct . PUNCT ) 
+
+( advmod Why ADV ) ( aux have AUX ) ( nsubj you PRON ) ( ROOT brought VERB ) ( predet all DET ) ( det that DET ) ( advmod smelly ADV ) ( compound leather NOUN ) ( dobj stuff NOUN ) ( prep into ADP ) ( det the DET ) ( pobj house NOUN ) ( punct ? PUNCT ) 
+
+( det The DET ) ( poss ship NOUN ) ( case 's PART ) ( ROOT cow NOUN ) ( punct , PUNCT ) ( acl distressed VERB ) ( agent by ADP ) ( det the DET ) ( pobj heat NOUN ) ( cc and CCONJ ) ( det the DET ) ( conj smell NOUN ) ( prep of ADP ) ( det the DET ) ( compound ape NOUN ) ( punct - PUNCT ) ( pobj beast NOUN ) ( prep in ADP ) ( det the DET ) ( pobj cage NOUN ) 
+
+( cc and CCONJ ) ( det the DET ) ( amod last ADJ ) ( ROOT puff NOUN ) ( prep of ADP ) ( det the DET ) ( compound day NOUN ) ( punct - PUNCT ) ( pobj wind NOUN ) ( acl brought VERB ) ( prep from ADP ) ( det the DET ) ( amod unseen ADJ ) ( pobj villages NOUN ) ( det the DET ) ( dobj scent NOUN ) ( prep of ADP ) ( amod damp ADJ ) ( compound wood NOUN ) ( pobj smoke NOUN ) ( punct , PUNCT ) ( amod hot ADJ ) ( conj cakes NOUN ) ( punct , PUNCT ) ( acl dripping VERB ) ( dobj undergrowth ADJ ) ( punct , PUNCT ) ( cc and CCONJ ) ( conj rotting VERB ) ( compound pine NOUN ) ( punct - PUNCT ) ( dobj cones NOUN ) ( punct . PUNCT ) 
+
+( det That DET ) ( nsubj smell NOUN ) ( ROOT is AUX ) ( det the DET ) ( amod true ADJ ) ( attr smell NOUN ) ( prep of ADP ) ( det the DET ) ( pobj Himalayas PROPN ) 
+
+( det The DET ) ( nsubj clouds NOUN ) ( ROOT closed VERB ) ( cc and CCONJ ) ( det the DET ) ( nsubj smell NOUN ) ( conj went VERB ) ( advmod away ADV ) 
+
+( det The DET ) ( nsubj king NOUN ) ( ROOT cast VERB ) ( det a DET ) ( dobj wreath NOUN ) ( prep of ADP ) ( amod heavy ADJ ) ( punct , PUNCT ) ( amod scented ADJ ) ( pobj flowers NOUN ) ( advcl round VERB ) ( poss my DET ) ( dobj neck NOUN ) ( mark as SCONJ ) ( nsubj I PRON ) ( advcl bowed VERB ) 
+
+( det The DET ) ( nsubj moon NOUN ) ( ROOT was AUX ) ( prep at ADP ) ( amod full ADJ ) ( cc and CCONJ ) ( conj drew VERB ) ( prt out ADP ) ( det the DET ) ( dobj scent NOUN ) ( prep of ADP ) ( det the DET ) ( amod tasseled VERB ) ( pobj crop NOUN ) ( punct . PUNCT ) 
+
+( nsubj I PRON ) ( aux could VERB ) ( ROOT smell VERB ) ( poss Strickland PROPN ) ( case 's PART ) ( dobj saddlery NOUN ) ( cc and CCONJ ) ( det the DET ) ( conj oil NOUN ) ( prep on ADP ) ( poss his DET ) ( pobj guns NOUN ) 
+
+( cc and CCONJ ) ( det the DET ) ( ROOT smell NOUN ) ( prep of ADP ) ( det the DET ) ( compound drinking NOUN ) ( pobj earth NOUN ) ( prep in ADP ) ( poss my DET ) ( pobj nostrils NOUN ) ( punct . PUNCT ) 
+
+( nsubj She PRON ) ( ROOT sniffed VERB ) ( cc and CCONJ ) ( conj was AUX ) ( advmod still ADV ) ( punct . PUNCT ) 
+
