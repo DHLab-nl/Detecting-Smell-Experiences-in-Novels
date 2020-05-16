@@ -59,7 +59,7 @@ def main():
     # run multiple processes
     print("scanning for seed words, as a multi-threaded process")
     for split in splits:
-        
+
         # collect all of the authors that are in the split
         authors = []
         for author, books in catalogue.items():

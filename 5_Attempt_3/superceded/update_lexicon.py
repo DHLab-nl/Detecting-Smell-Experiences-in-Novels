@@ -43,23 +43,20 @@ def main():
     # assemble extraction patterns in python re format
     patterns = []
     for pattern in extraction_patterns:
-        patterns.append(convert_patterns([pattern], chunks)[0])
+        patterns += [re.compile("^.*"+convert_patterns([pattern], chunks)[0] + ".*",re.MULTILINE)]
 
     # iterate over book extracts
     print(f"Iterating over book extracts")
-    for extract_index, (book_code, book_extracts) in enumerate(
-        tqdm(harvesting_set.items())
-    ):
-
+    for book_code, book_extracts in tqdm(harvesting_set.items()):
         for extract, parsed_extract in book_extracts:
 
             # remove " and ' from sentences
-            parsed_extract = parsed_extract.replace('punct_"_PUNCT', "")
-            parsed_extract = parsed_extract.replace("punct_'_PUNCT", "")
+            # parsed_extract = parsed_extract.replace('punct_"_PUNCT', "")
+            # parsed_extract = parsed_extract.replace("punct_'_PUNCT", "")
 
             # group extracts under existing patterns, or group under unmatched
             for pattern in patterns:
-                mo = regex.search(pattern, parsed_extract)
+                mo = re.match(pattern, parsed_extract)
 
                 # if a pattern match, add match object to lexicon
                 if mo:
@@ -69,6 +66,7 @@ def main():
                             match = remove_dep(match)
                             if match not in list(itertools.chain(*lexicon)):
                                 lexicon[-1].append(match)
+                                break #assume only a single pattern per sentence
 
 
     # save lexicon

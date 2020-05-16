@@ -17,11 +17,11 @@ chunks = {
     "<prep>": "prep__ det__*",
     # with the , of the , in the, of
     #
-    "<noun>": "{_and|,|or_* <prep>* det__* poss__* __PART* <adj>* compound__* _-_* __NOUN|PROPN+}+",
+    "<noun>": "{_and|,|or_* det__* poss__* __PART* <adj>* compound__* _-_* __NOUN|PROPN+}+",
     # "<noun>": "det__* poss__* __PART* <adj>* compound__* _-_* __NOUN|PROPN+ {_and|,|or_* det__* <adj>* compound__* _-_* __NOUN|PROPN+}*",
     # green, mottled tree-bark and pale roots of the tree
     #
-    "<pronoun>": "{_and|,|or_* <prep>* det__* poss__* __PART* <adj>* compound__* _-_* __PRON}+",
+    "<pronoun>": "{_and|,|or_* det__* poss__* __PART* <adj>* compound__* _-_* __PRON}+",
     #
     # "<subj>": "det__* <adj>* compound__* _-_* subj__ <prep>* {_and|,|or_* det__* <adj>* compound__* _-_* conj__}*",
     "<smell_noun>": "det__* poss__* __PART* <adj>* compound__* _-_* _aroma|bouqet|fragance|niff|perfume|musk|petrichor|odour|pong|pungency|redolence|reek|ripeness|savour|scent|stench|smell|sniff|stink|waft|whiff_NOUN",
