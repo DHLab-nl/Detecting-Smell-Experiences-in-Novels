@@ -9,7 +9,7 @@ requires in dir.:
     parsed_extracts.json: {"cycle":[(seed, extract, parsed_extract),..],..}
     harvesting.json: {"book_code": [list of sentence, parsed sentence tuples],.. }
     lexicon.json:   [
-                        # phrases from patterns 0
+                        # phrases from patterns 0 (i.e. cycle 0)
                         [
 
                             [
@@ -65,6 +65,15 @@ def main(argv):
     with open("lexicon.json", "r") as f:
         lexicon = json.load(f)
 
+    # compile lexicon as regex patterns
+    patterns = []
+    for cycle in lexicon[-1]:
+        for phrase in cycle[0]:
+            try:
+                patterns.append((regex.compile(convert_patterns([phrase], chunks)[0]), phrase))
+            except:
+                print(f"lexicon error, token: {phrase}")
+
     # import harvesting set
     with open("harvesting.json", "r") as f:
         dataset = json.load(f)
@@ -94,7 +103,7 @@ def main(argv):
         for i in range(number_of_processes):
 
             process = multiprocessing.Process(
-                target=mapped_function, args=(extract_sets[i], lexicon, queue,),
+                target=mapped_function, args=(extract_sets[i], patterns, queue,),
             )
             process.start()
             processes.append(process)
@@ -120,25 +129,18 @@ def main(argv):
             f.write("\n" + parsed_extract)
 
 
-def mapped_function(extract_set, lexicon, queue):
+def mapped_function(extract_set, patterns, queue):
     """Iterate through the extract_set and return a list of extracts with the last lexicon cycles entries present.
     """
     # ignore extracts already seen
 
     returned = []
-    for extract, parsed_extract in tqdm(extract_set):
-        for cycle in lexicon[-1]:
-            for phrase in cycle[0]:
-                try:
-                    # convert phrase (abstraction) to python pattern
-                    pattern = convert_patterns([phrase], chunks)[0]
-                    mo = regex.search(pattern, parsed_extract)
-                    if mo:
-                        returned.append((phrase, extract, parsed_extract))
-                        break
-                except:
-                    print(f"lexicon failure, token: {phrase}")
-                    exit(1)
+    for extract, parsed_extract in extract_set:
+        for pattern, phrase in patterns:
+            mo = regex.search(pattern, parsed_extract)
+            if mo:
+                returned.append((phrase, extract, parsed_extract))
+                break
 
     queue.put(returned)
 
