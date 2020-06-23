@@ -17,7 +17,7 @@ def main(argv):
     # handle command line arguments
     assert "author" in argv or "freq." in argv, "2 command line arguments required"
 
-    df = pd.read_csv("literature.csv")
+    df = pd.read_csv(argv[0])
 
     if argv[1] == "author":
         df_new = df.iloc[:, 1:].sort_values(by=["author", "title"]).reset_index(drop=True)
