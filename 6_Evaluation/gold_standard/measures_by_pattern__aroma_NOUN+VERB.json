@@ -1,0 +1,222 @@
+{
+    "_fumes_ _of_ _incense_ {_of_ <noun>}* __DET* <verb> prep__*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<smelling_verb> _with|of|like_ <noun> {_of_ <noun>}*": {
+        "P": 0.9999990000010001,
+        "R": 0.0022123893756363067
+    },
+    "<smell_verb> <noun> {_of_ <noun>}* __DET* <verb> prep__*": {
+        "P": 0.0,
+        "R": 0.0
+    },
+    "<verb> prep__* __DET* <pronoun>* <adj>* <smelling_verb> <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<smell_noun> _of|like_ <noun>": {
+        "P": 0.9090909031877215,
+        "R": 0.3097345125890829
+    },
+    "<adj>* <smell_noun> <verb> prep__*": {
+        "P": 0.9499999525000024,
+        "R": 0.04203539813708983
+    },
+    "<verb> <pronoun>* <adj>* <smell_noun>": {
+        "P": 0.9090908264462886,
+        "R": 0.022123893756363068
+    },
+    "<adj>* <smell_noun> _of|like_ <pronoun>* [<verb> <noun> {_of_ <noun>}*] [<verb> prep__*]": {
+        "P": 0.9999990000010001,
+        "R": 0.0022123893756363067
+    },
+    "<smell_noun> _of|like_ <pronoun>* [<noun> {_and_ _of|like_ <noun>}*] <verb>* _from_ <pronoun>* <noun> {_of_ <noun>}* [<verb> prep__*]": {
+        "P": 0.99999950000025,
+        "R": 0.0044247787512726134
+    },
+    "<noun> {_of_ <noun>}* _filled_ _the_ _air_ _with_ <smell_noun>": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "[<verb> prep__*] <noun> {_of_ <noun>}* _,_* __DET* <pronoun>* <adj>* <smell_noun> _of|like_ [<noun> {_of_ <noun>}*]": {
+        "P": 0.49999991666668053,
+        "R": 0.00663716812690892
+    },
+    "<noun> {_of_ <noun>}* _,_* __DET* <verb> prep__* __DET* <pronoun>* <adj>* <smell_noun>": {
+        "P": 0.8749999453125034,
+        "R": 0.030973451258908293
+    },
+    "<smell_noun> _of|like_ __DET* <pronoun>* <noun> {_of_ <noun>}* <verb> prep__* <verb>": {
+        "P": 0.9999996666667778,
+        "R": 0.00663716812690892
+    },
+    "<smell_noun> __DET* <verb> prep__* <pronoun>* <noun> {_of_ <noun>}*": {
+        "P": 0.99999990000001,
+        "R": 0.022123893756363068
+    },
+    "<noun> {_of_ <noun>}* _,_ <verb> prep__* <noun> _,_ <verb> prep__*": {
+        "P": 0.8749998906250137,
+        "R": 0.015486725629454147
+    },
+    "<noun> {_of_ <noun>}* _,_* <verb> {prep__ <verb>}* _,_* <verb> prep__*": {
+        "P": 0.5070422463796866,
+        "R": 0.07964601752290704
+    },
+    "<smell_noun> _of|like_ <pronoun>* __DET* __NUM* <noun> {_of_ <noun>}* _,_* __DET* <verb> prep__*": {
+        "P": 0.8823529152249143,
+        "R": 0.0663716812690892
+    },
+    "<verb> prep__* <pronoun> _,_* __DET* <adj>* <smell_noun> _of|like_ <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<verb> prep__* __DET* <adj>* <smell_noun> _of|like_ <pronoun>* <noun> _of_ {<noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<verb> prep__* <pronoun>* <noun> _,_* __DET* <adj>* <smell_noun> _of|like_ <noun> {_of_ <noun>}*": {
+        "P": 0.49999987500003124,
+        "R": 0.0044247787512726134
+    },
+    "<adj>* compound__ <smell_noun> __DET* <verb> prep__*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<verb> prep__* __DET* <adj>* <smell_noun> _of|like_ <pronoun>* <noun> {_of_ <noun>}*": {
+        "P": 0.937499970703126,
+        "R": 0.0663716812690892
+    },
+    "<verb> prep__* <noun> _of_ __DET* <pronoun>* <adj>* <smell_noun> _of|like_ <pronoun>* <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<noun> {_of_ <noun>}* __DET* <smell_noun> <verb> prep__*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "_from_ <noun> <verb> __DET* <adj>* <smell_noun>": {
+        "P": 0.9999990000010001,
+        "R": 0.0022123893756363067
+    },
+    "<smell_noun> _of|like_ <noun> {_of_ <noun>}* _,_* __DET* __ADP* <noun> _,_* <verb> prep__*": {
+        "P": 0.9411764152249167,
+        "R": 0.03539823001018091
+    },
+    "<smell_noun> [{_of|like_ <noun> _,_*}* {_and_ <noun>}*] [<verb> prep__*]": {
+        "P": 0.9399999812000004,
+        "R": 0.10398230065490642
+    },
+    "<noun> <verb> prep__* __DET* <smell_noun> _of|like_ <noun> {_of_ <noun>}*": {
+        "P": 0.9999998571428775,
+        "R": 0.015486725629454147
+    },
+    "<smells_noun> _of_ <noun> {_of_ <noun>}* prep__* <verb> prep__*": {
+        "P": 0.9999996666667778,
+        "R": 0.00663716812690892
+    },
+    "<smells_noun> {_of_ <noun>}* prep__* <pronoun>* <verb> prep__*": {
+        "P": 0.99999980000004,
+        "R": 0.011061946878181534
+    },
+    "<noun> _of_ <smelly_adj> <noun>": {
+        "P": 0.49999991666668053,
+        "R": 0.00663716812690892
+    },
+    "<noun> _-_ <smelly_adj> <noun>": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<smells_noun> _of|like_ <noun>": {
+        "P": 0.8235293633218022,
+        "R": 0.030973451258908293
+    },
+    "<adj>* <smells_noun> <verb> prep__*": {
+        "P": 0.99999950000025,
+        "R": 0.0044247787512726134
+    },
+    "<verb> <pronoun>* <adj>* <smells_noun>": {
+        "P": 0.9999998571428775,
+        "R": 0.015486725629454147
+    },
+    "<adj>* <smells_noun> _of|like_ <pronoun>* [<verb> <noun> {_of_ <noun>}*] [<verb> prep__*]": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<smells_noun> _of_ <pronoun>* [<noun> {_and_ _of_ <noun>}*] _from_ <pronoun>* <noun> {_of_ <noun>}* [<verb> prep__*]": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "[<verb> prep__*] <noun> {_of_ <noun>}* _,_* __DET* <pronoun>* <adj>* <smells_noun> _of|like_ [<noun> {_of_ <noun>}*]": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<noun> {_of_ <noun>}* _filled_ _the_ _air_ _with_ <smells_noun>": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<noun> {_of_ <noun>}* _,_* __DET* <verb> prep__* __DET* <pronoun>* <adj>* <smells_noun>": {
+        "P": 0.8999999100000091,
+        "R": 0.01991150438072676
+    },
+    "<smells_noun> _of|like_ <pronoun>* __DET* __NUM* <noun> {_of_ <noun>}* _,_* __DET* <verb> prep__*": {
+        "P": 0.9999996666667778,
+        "R": 0.00663716812690892
+    },
+    "<smells_noun> __DET* <verb> prep__* <pronoun>* <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<smells_noun> _of|like_ __DET* <pronoun>* <noun> {_of_ <noun>}* <verb> prep__* <verb>": {
+        "P": 0.9999990000010001,
+        "R": 0.0022123893756363067
+    },
+    "<verb> prep__* <pronoun>* <noun> _,_* __DET* <adj>* <smells_noun> _of|like_ <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<verb> prep__* <pronoun> _,_* __DET* <adj>* <smells_noun> _of|like_ <noun> {_of_ <noun>}*": {
+        "P": 0.0,
+        "R": 0.0
+    },
+    "<verb> prep__* __DET* <adj>* <smells_noun> _of|like_ <pronoun>* <noun> _of_ {<noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<verb> prep__* __DET* <adj>* <smells_noun> _of_ <pronoun>* <noun> {_of|like_ <noun>}*": {
+        "P": 0.9999996666667778,
+        "R": 0.00663716812690892
+    },
+    "<verb> prep__* <noun> _of_ __DET* <pronoun>* <adj>* <smells_noun> _of|like_ <pronoun>* <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<adj>* compound__ <smells_noun> __DET* <verb> prep__*": {
+        "P": 0.9999990000010001,
+        "R": 0.0022123893756363067
+    },
+    "<smells_noun> [{_of|like_ <noun> _,_*}* {_and_ <noun>}*] [<verb> prep__*]": {
+        "P": 0.8749998906250137,
+        "R": 0.015486725629454147
+    },
+    "<smells_noun> _of|like_ <noun> {_of_ <noun>}* _,_* __DET* __ADP* <noun> _,_* <verb> prep__*": {
+        "P": 0.6666664444445185,
+        "R": 0.0044247787512726134
+    },
+    "<noun> {_of_ <noun>}* __DET* <smells_noun> <verb> prep__*": {
+        "P": 0.99999950000025,
+        "R": 0.0044247787512726134
+    },
+    "_from_ <noun> <verb> __DET* <adj>* <smells_noun>": {
+        "P": "unknown",
+        "R": "unknown"
+    },
+    "<noun> {_of_ <noun>}* <verb>* <smelled_verb> <adv>* prep__* <noun> {_of_ <noun>}*": {
+        "P": 0.7777777345679036,
+        "R": 0.030973451258908293
+    },
+    "<noun> <verb> prep__* __DET* <smells_noun> _of|like_ <noun> {_of_ <noun>}*": {
+        "P": "unknown",
+        "R": "unknown"
+    }
+}

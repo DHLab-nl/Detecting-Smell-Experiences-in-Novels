@@ -1,0 +1,7 @@
+precision by pattern TP/ TP + FP
+recall by pattern
+
+how to compare against a simple search?
+look at n most precise patterns and compare group precision & recall
+
+
