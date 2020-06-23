@@ -1,0 +1,127 @@
+[
+    [
+        "Then slowly, slowly, the silver spot moved away, ahead of him, toward the soft scented blackness of the deep woods.",
+        "advmod_then_ADV advmod_slowly_ADV punct_,_PUNCT advmod_slowly_ADV punct_,_PUNCT det_the_DET compound_silver_NOUN nsubj_spot_NOUN ROOT_moved_VERB advmod_away_ADV punct_,_PUNCT advmod_ahead_ADV prep_of_ADP pobj_him_PRON punct_,_PUNCT prep_toward_ADP det_the_DET amod_soft_ADJ amod_scented_VERB pobj_blackness_NOUN prep_of_ADP det_the_DET amod_deep_ADJ pobj_woods_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "There was no answer except the pack’s snarling and the yelp of a coyote that had smelled the fresh blood and come to the edge of the woods to wait until the gray ones were done with their banquet.",
+        "expl_there_PRON ROOT_was_AUX det_no_DET attr_answer_NOUN prep_except_SCONJ det_the_DET pobj_pack_NOUN punct_’s_PART attr_snarling_NOUN cc_and_CCONJ det_the_DET conj_yelp_NOUN prep_of_ADP det_a_DET pobj_coyote_NOUN nsubj_that_DET aux_had_AUX relcl_smelled_VERB det_the_DET amod_fresh_ADJ dobj_blood_NOUN cc_and_CCONJ conj_come_VERB prep_to_ADP det_the_DET pobj_edge_NOUN prep_of_ADP det_the_DET pobj_woods_NOUN aux_to_PART advcl_wait_VERB mark_until_ADP det_the_DET amod_gray_ADJ nsubjpass_ones_NOUN auxpass_were_AUX advcl_done_VERB prep_with_ADP poss_their_DET pobj_banquet_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "I would be a Japanese--always with O-Toyo--in a cabinet workhouse on a camphor-scented hillside.",
+        "nsubj_i_PRON aux_would_VERB ROOT_be_AUX det_a_DET attr_japanese_PROPN punct_--_PUNCT advmod_always_ADV prep_with_ADP compound_o_NOUN punct_-_PUNCT pobj_toyo_NOUN punct_--_PUNCT prep_in_ADP det_a_DET compound_cabinet_NOUN pobj_workhouse_NOUN prep_on_ADP det_a_DET npadvmod_camphor_NOUN punct_-_PUNCT amod_scented_VERB pobj_hillside_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "It so happened that I had the wind of them, else they would have scented me and made off, for I was within a hundred yards of the nearest.",
+        "nsubj_it_PRON advmod_so_ADV ROOT_happened_VERB mark_that_SCONJ nsubj_i_PRON ccomp_had_AUX det_the_DET dobj_wind_NOUN prep_of_ADP pobj_them_PRON punct_,_PUNCT advmod_else_ADV nsubj_they_PRON aux_would_VERB aux_have_AUX conj_scented_VERB dobj_me_PRON cc_and_CCONJ conj_made_VERB prt_off_ADP punct_,_PUNCT mark_for_ADP nsubj_i_PRON advcl_was_AUX prep_within_ADP quantmod_a_DET nummod_hundred_NUM pobj_yards_NOUN prep_of_ADP det_the_DET pobj_nearest_ADJ punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "Gustav had smelt a rat, for when they arrived he was dressed.",
+        "nsubj_gustav_PROPN aux_had_AUX ROOT_smelt_VERB det_a_DET dobj_rat_NOUN punct_,_PUNCT prep_for_ADP advmod_when_ADV nsubj_they_PRON pcomp_arrived_VERB nsubjpass_he_PRON auxpass_was_AUX ccomp_dressed_VERB punct_._PUNCT ",
+        "FP"
+    ],
+    [
+        "All at once the hare sat up--he had sniffed Bevis, and the same minute the flash rushed from the muzzle.",
+        "advmod_all_DET advmod_at_ADP advmod_once_ADV det_the_DET nsubj_hare_NOUN advcl_sat_VERB prt_up_ADP punct_--_PUNCT nsubj_he_PRON aux_had_AUX ROOT_sniffed_VERB dobj_bevis_NOUN punct_,_PUNCT cc_and_CCONJ det_the_DET amod_same_ADJ conj_minute_NOUN det_the_DET nsubj_flash_NOUN relcl_rushed_VERB prep_from_ADP det_the_DET pobj_muzzle_PROPN punct_._PUNCT ",
+        "FP"
+    ],
+    [
+        "Memories of boyhood began to flit through his mind; they curled upwards in the scented wreaths of his Havana....",
+        "nsubj_memories_PROPN prep_of_ADP pobj_boyhood_PROPN ccomp_began_VERB aux_to_PART xcomp_flit_VERB prep_through_ADP poss_his_DET pobj_mind_NOUN punct_;_PUNCT nsubj_they_PRON ROOT_curled_VERB advmod_upwards_ADV prep_in_ADP det_the_DET amod_scented_VERB pobj_wreaths_NOUN prep_of_ADP poss_his_DET pobj_havana_PROPN punct_...._PUNCT ",
+        "TP"
+    ],
+    [
+        "All the time, however, Gilian was luckily more or less separate from his company by many miles of fancy, behind the hills among the lochs watching the uprising of Nan, sharing her loneliness, seeing her feet brush the dew from the scented gall.",
+        "predet_all_DET det_the_DET npadvmod_time_NOUN punct_,_PUNCT advmod_however_ADV punct_,_PUNCT nsubj_gilian_PROPN ROOT_was_AUX advmod_luckily_ADV advmod_more_ADV cc_or_CCONJ conj_less_ADV acomp_separate_ADJ prep_from_ADP poss_his_DET pobj_company_NOUN prep_by_ADP amod_many_ADJ pobj_miles_NOUN prep_of_ADP pobj_fancy_NOUN punct_,_PUNCT prep_behind_ADP det_the_DET pobj_hills_NOUN prep_among_ADP det_the_DET pobj_lochs_NOUN acl_watching_VERB det_the_DET dobj_uprising_NOUN prep_of_ADP pobj_nan_PROPN punct_,_PUNCT advcl_sharing_VERB poss_her_DET dobj_loneliness_NOUN punct_,_PUNCT conj_seeing_VERB poss_her_DET nsubj_feet_NOUN ccomp_brush_VERB det_the_DET dobj_dew_NOUN prep_from_ADP det_the_DET amod_scented_VERB pobj_gall_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "Pan sniffed at the narrow crevice between the edge of the boulder and the ground--concealed by the grass till Bevis found it--but showed no interest.",
+        "nsubj_pan_PROPN ROOT_sniffed_VERB prep_at_ADP det_the_DET amod_narrow_ADJ pobj_crevice_NOUN prep_between_ADP det_the_DET pobj_edge_NOUN prep_of_ADP det_the_DET pobj_boulder_NOUN cc_and_CCONJ det_the_DET conj_ground_NOUN punct_--_PUNCT acl_concealed_VERB agent_by_ADP det_the_DET pobj_grass_NOUN mark_till_SCONJ nsubj_bevis_PROPN advcl_found_VERB dobj_it_PRON punct_--_PUNCT cc_but_CCONJ conj_showed_VERB det_no_DET dobj_interest_NOUN punct_._PUNCT ",
+        "FP"
+    ],
+    [
+        "Stealing out of the main burrow, the little cub sniffed the air wisely, and examined the landscape from under wrinkled brows with an air of profound consideration.",
+        "advcl_stealing_VERB prep_out_SCONJ prep_of_ADP det_the_DET amod_main_ADJ pobj_burrow_NOUN punct_,_PUNCT det_the_DET amod_little_ADJ nsubj_cub_NOUN ROOT_sniffed_VERB det_the_DET dobj_air_NOUN advmod_wisely_ADV punct_,_PUNCT cc_and_CCONJ conj_examined_VERB det_the_DET dobj_landscape_NOUN prep_from_ADP prep_under_ADP amod_wrinkled_VERB pobj_brows_NOUN prep_with_ADP det_an_DET pobj_air_NOUN prep_of_ADP amod_profound_ADJ pobj_consideration_NOUN punct_._PUNCT ",
+        "FP"
+    ],
+    [
+        "\"Then I smelt the smell of that jasmine flower She used to wear in her breast It smelt so faint and it smelt so sweet.--\" The pipe dropped from the 65th's hand.",
+        "punct_\"_PUNCT advmod_then_ADV nsubj_i_PRON ROOT_smelt_VERB det_the_DET dobj_smell_NOUN prep_of_ADP det_that_DET compound_jasmine_NOUN pobj_flower_NOUN nsubj_she_PRON relcl_used_VERB aux_to_PART xcomp_wear_VERB prep_in_ADP poss_her_DET pobj_breast_NOUN nsubj_it_PRON ccomp_smelt_VERB advmod_so_ADV advmod_faint_ADJ cc_and_CCONJ nsubj_it_PRON ROOT_smelt_VERB advmod_so_ADV ROOT_sweet.--_NOUN punct_\"_PUNCT det_the_DET nsubj_pipe_NOUN ROOT_dropped_VERB prep_from_ADP det_the_DET poss_65th_NOUN case_'s_PART pobj_hand_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "Steve tasted powder, smelled powder.",
+        "compound_steve_PROPN amod_tasted_PROPN nsubj_powder_PROPN punct_,_PUNCT ROOT_smelled_VERB dobj_powder_PROPN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "He edged out toward the grove which reeked with bear scent.",
+        "nsubj_he_PRON ROOT_edged_VERB prt_out_ADP prep_toward_ADP det_the_DET pobj_grove_NOUN nsubj_which_DET relcl_reeked_VERB prep_with_ADP compound_bear_NOUN pobj_scent_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "He scented battle, and was not by any means displeased.",
+        "nsubj_he_PRON ROOT_scented_VERB dobj_battle_NOUN punct_,_PUNCT cc_and_CCONJ conj_was_AUX neg_not_PART prep_by_ADP det_any_DET pobj_means_NOUN acl_displeased_ADJ punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "He smelt at the thing also, and to him, as to the others, it seemed a good and pleasant smell, and he gurgled with delight.",
+        "nsubj_he_PRON ccomp_smelt_VERB prep_at_ADP det_the_DET pobj_thing_NOUN advmod_also_ADV punct_,_PUNCT cc_and_CCONJ conj_to_ADP pobj_him_PRON punct_,_PUNCT prep_as_SCONJ prep_to_ADP det_the_DET pobj_others_NOUN punct_,_PUNCT nsubj_it_PRON ROOT_seemed_VERB det_a_DET amod_good_ADJ cc_and_CCONJ conj_pleasant_ADJ oprd_smell_NOUN punct_,_PUNCT cc_and_CCONJ nsubj_he_PRON conj_gurgled_VERB prep_with_ADP pobj_delight_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "His nose wrinkled and his long, black-tipped tail lashed as he scented the mares and colts sleeping in the open.",
+        "poss_his_DET nsubj_nose_NOUN ROOT_wrinkled_VERB cc_and_CCONJ poss_his_DET amod_long_ADJ punct_,_PUNCT amod_black_ADJ punct_-_PUNCT amod_tipped_VERB nsubj_tail_NOUN conj_lashed_VERB mark_as_SCONJ nsubj_he_PRON advcl_scented_VERB det_the_DET dobj_mares_NOUN cc_and_CCONJ conj_colts_NOUN acl_sleeping_VERB prep_in_ADP det_the_DET pobj_open_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "Come spring he’ll do two hunnert.” As he tucked the ancient watch back into his pocket he sniffed the air.",
+        "ROOT_come_VERB npadvmod_spring_NOUN nsubj_he_PRON aux_’ll_VERB ROOT_do_AUX nummod_two_NUM dobj_hunnert_VERB punct_._PUNCT punct_”_PUNCT mark_as_SCONJ nsubj_he_PRON advcl_tucked_VERB det_the_DET amod_ancient_ADJ dobj_watch_VERB advmod_back_ADV prep_into_ADP poss_his_DET pobj_pocket_NOUN nsubj_he_PRON ROOT_sniffed_VERB det_the_DET dobj_air_NOUN punct_._PUNCT ",
+        "FP"
+    ],
+    [
+        "It so happened, then, that Rocinante took a fancy to disport himself with their ladyships the ponies, and abandoning his usual gait and demeanour as he scented them, he, without asking leave of his master, got up a briskish little trot and hastened to make known his wishes to them; they, however, it seemed, preferred their pasture to him, and received him with their heels and teeth to such effect that they soon broke his girths and left him naked without a saddle to cover him; but what must have been worse to him was that the carriers, seeing the violence he was offering to their mares, came running up armed with stakes, and so belaboured him that they brought him sorely battered to the ground.",
+        "nsubj_it_PRON advmod_so_ADV ccomp_happened_VERB punct_,_PUNCT advmod_then_ADV punct_,_PUNCT det_that_SCONJ nsubj_rocinante_PROPN ccomp_took_VERB det_a_DET dobj_fancy_NOUN aux_to_PART xcomp_disport_VERB dobj_himself_PRON prep_with_ADP poss_their_DET pobj_ladyships_NOUN det_the_DET appos_ponies_NOUN punct_,_PUNCT cc_and_CCONJ conj_abandoning_VERB poss_his_DET amod_usual_ADJ dobj_gait_NOUN cc_and_CCONJ conj_demeanour_NOUN mark_as_SCONJ nsubj_he_PRON advcl_scented_VERB dobj_them_PRON punct_,_PUNCT intj_he_PRON punct_,_PUNCT prep_without_ADP pcomp_asking_VERB dobj_leave_NOUN prep_of_ADP poss_his_DET pobj_master_NOUN punct_,_PUNCT conj_got_VERB prt_up_ADP det_a_DET amod_briskish_ADJ amod_little_ADJ dobj_trot_NOUN cc_and_CCONJ conj_hastened_VERB aux_to_PART xcomp_make_VERB ccomp_known_ADJ poss_his_DET dobj_wishes_NOUN prep_to_ADP pobj_them_PRON punct_;_PUNCT nsubj_they_PRON punct_,_PUNCT advmod_however_ADV punct_,_PUNCT nsubj_it_PRON parataxis_seemed_VERB punct_,_PUNCT ROOT_preferred_VERB poss_their_DET dobj_pasture_NOUN prep_to_ADP pobj_him_PRON punct_,_PUNCT cc_and_CCONJ conj_received_VERB dobj_him_PRON prep_with_ADP poss_their_DET pobj_heels_NOUN cc_and_CCONJ conj_teeth_NOUN prep_to_ADP amod_such_ADJ pobj_effect_NOUN mark_that_SCONJ nsubj_they_PRON advmod_soon_ADV acl_broke_VERB poss_his_DET dobj_girths_NOUN cc_and_CCONJ conj_left_VERB dobj_him_PRON oprd_naked_ADJ prep_without_ADP det_a_DET pobj_saddle_NOUN aux_to_PART relcl_cover_VERB dobj_him_PRON punct_;_PUNCT cc_but_CCONJ nsubj_what_PRON aux_must_VERB aux_have_AUX csubj_been_AUX acomp_worse_ADJ prep_to_ADP pobj_him_PRON conj_was_AUX mark_that_SCONJ det_the_DET nsubj_carriers_NOUN punct_,_PUNCT advcl_seeing_VERB det_the_DET dobj_violence_NOUN nsubj_he_PRON aux_was_AUX relcl_offering_VERB prep_to_ADP poss_their_DET pobj_mares_NOUN punct_,_PUNCT ccomp_came_VERB advcl_running_VERB prt_up_ADP advcl_armed_ADJ prep_with_ADP pobj_stakes_NOUN punct_,_PUNCT cc_and_CCONJ advmod_so_ADV conj_belaboured_VERB dobj_him_PRON mark_that_SCONJ nsubj_they_PRON ccomp_brought_VERB dobj_him_PRON advmod_sorely_ADV acomp_battered_VERB prep_to_ADP det_the_DET pobj_ground_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "Thereafter, one night Blackcross, while hunting over a hilltop pasture, noted a long, freshly turned furrow that ran straight across the field, which was filled with old chaff taken from deserted barns and smelt delightfully of mice.",
+        "advmod_thereafter_ADV punct_,_PUNCT nummod_one_NUM compound_night_NOUN nsubj_blackcross_NOUN punct_,_PUNCT mark_while_SCONJ advcl_hunting_VERB prep_over_ADP det_a_DET amod_hilltop_NOUN pobj_pasture_NOUN punct_,_PUNCT ROOT_noted_VERB det_a_DET advmod_long_ADJ punct_,_PUNCT advmod_freshly_ADV ccomp_turned_VERB oprd_furrow_NOUN nsubj_that_DET relcl_ran_VERB advmod_straight_ADV prep_across_ADP det_the_DET pobj_field_NOUN punct_,_PUNCT nsubjpass_which_DET auxpass_was_AUX relcl_filled_VERB prep_with_ADP amod_old_ADJ pobj_chaff_NOUN acl_taken_VERB prep_from_ADP amod_deserted_ADJ pobj_barns_NOUN cc_and_CCONJ conj_smelt_VERB advmod_delightfully_ADV prep_of_ADP pobj_mice_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "When aloft in the red and white apple-blossoms two sparrows pecked and screamed and spent the pleasant summer hours above in the flower-scented air in shrill dispute and sharp contention, she thought that she heard in all their noisy notes the arrogant voices of Alcyone and Cyx.",
+        "advmod_when_ADV advmod_aloft_ADV prep_in_ADP det_the_DET amod_red_ADJ cc_and_CCONJ conj_white_ADJ nmod_apple_NOUN punct_-_PUNCT conj_blossoms_NOUN nummod_two_NUM pobj_sparrows_NOUN advcl_pecked_VERB cc_and_CCONJ conj_screamed_VERB cc_and_CCONJ conj_spent_VERB det_the_DET amod_pleasant_ADJ compound_summer_NOUN npadvmod_hours_NOUN advmod_above_ADV prep_in_ADP det_the_DET npadvmod_flower_NOUN punct_-_PUNCT amod_scented_VERB pobj_air_NOUN prep_in_ADP compound_shrill_PROPN pobj_dispute_NOUN cc_and_CCONJ amod_sharp_ADJ conj_contention_NOUN punct_,_PUNCT nsubj_she_PRON ROOT_thought_VERB mark_that_SCONJ nsubj_she_PRON ccomp_heard_VERB prep_in_ADP det_all_DET poss_their_DET amod_noisy_ADJ pobj_notes_NOUN det_the_DET amod_arrogant_ADJ dobj_voices_NOUN prep_of_ADP pobj_alcyone_NOUN cc_and_CCONJ conj_cyx_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "The second man, younger, slender, with a short red beard, leaned against the window, smelled the roses, and listened to the birds.",
+        "det_the_DET amod_second_ADJ nsubj_man_NOUN punct_,_PUNCT appos_younger_ADJ punct_,_PUNCT appos_slender_NOUN punct_,_PUNCT prep_with_ADP det_a_DET amod_short_ADJ amod_red_ADJ pobj_beard_NOUN punct_,_PUNCT ROOT_leaned_VERB prep_against_ADP det_the_DET pobj_window_NOUN punct_,_PUNCT conj_smelled_VERB det_the_DET dobj_roses_NOUN punct_,_PUNCT cc_and_CCONJ conj_listened_VERB prep_to_ADP det_the_DET pobj_birds_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "We taught him what was constitutional and what was unconstitutional in the days when Calcutta smelt.",
+        "nsubj_we_PRON ROOT_taught_VERB dobj_him_PRON nsubj_what_PRON ccomp_was_AUX acomp_constitutional_ADJ cc_and_CCONJ nsubj_what_PRON conj_was_AUX acomp_unconstitutional_ADJ prep_in_ADP det_the_DET pobj_days_NOUN advmod_when_ADV nsubj_calcutta_NOUN relcl_smelt_VERB punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "But as they were about to sit down, Pan, who had woke up when he scented rabbits, suddenly disappeared in a hollow.",
+        "cc_but_CCONJ mark_as_SCONJ nsubj_they_PRON advcl_were_AUX acomp_about_ADJ aux_to_PART xcomp_sit_VERB prt_down_ADP punct_,_PUNCT npadvmod_pan_PROPN punct_,_PUNCT nsubj_who_PRON aux_had_AUX relcl_woke_VERB prt_up_ADP advmod_when_ADV nsubj_he_PRON advcl_scented_VERB dobj_rabbits_NOUN punct_,_PUNCT advmod_suddenly_ADV ROOT_disappeared_VERB prep_in_ADP det_a_DET pobj_hollow_NOUN punct_._PUNCT ",
+        "TP"
+    ],
+    [
+        "She heard a rustling in the thicket and sniffed the warm air nervously.",
+        "nsubj_she_PRON ROOT_heard_VERB det_a_DET dobj_rustling_NOUN prep_in_ADP det_the_DET pobj_thicket_NOUN cc_and_CCONJ conj_sniffed_VERB det_the_DET amod_warm_ADJ dobj_air_NOUN advmod_nervously_ADV punct_._PUNCT ",
+        "FP"
+    ],
+    [
+        "And because he was so true to his wolf training, he sniffed at them hard, to make them more understandable through his nose.",
+        "cc_and_CCONJ mark_because_SCONJ nsubj_he_PRON advcl_was_AUX advmod_so_ADV acomp_true_ADJ prep_to_ADP poss_his_DET compound_wolf_NOUN pobj_training_NOUN punct_,_PUNCT nsubj_he_PRON ROOT_sniffed_VERB prep_at_ADP pobj_them_PRON advmod_hard_ADV punct_,_PUNCT aux_to_PART advcl_make_VERB nsubj_them_PRON advmod_more_ADV ccomp_understandable_ADJ prep_through_ADP poss_his_DET pobj_nose_NOUN punct_._PUNCT ",
+        "FP"
+    ]
+]
