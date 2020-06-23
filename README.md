@@ -1,47 +1,119 @@
-----
+0_embeddings/
+-
+_investigate the top 100 tokens (from the Google news dataset) with the highest cosine similarity to 'smell' (output to term)_
+
+    %python3 embeddings.py
+
 1_PG_Catalogue (output catalogue.json)/
-----
+
+-
 _index the PG catalogue wrt. english language only books_
 
     $ python3 catalogue.py GUTINDEX.ALL
 
 Returns:
     catalogue.json: a dictionary, by author of all Eng lang books
+    {"author":[('book_title', 'url_code'), ...], ...}
 
-----
-2a_Smellword_frequency (output found,failed.json)/
-----
-_iden texts with higher frequency of smell words, indicative of higher textual smell experience frequency overall (assumed)_
+2a_Smellword_frequency (output found.json, found.csv)/10May_multithreaded/
+-
+_rank texts by smell word frequency (as indicative of overall experience frequency_
+(note: written via threading module to avoid i/o bottlenecks)
 
-    $ python3 search_word_frequency.py catalogue.json search_words.txt
+    $ python3 search_word_frequency.py
 
-Args:
+Requires in directory:
+    catalogue.json
     search_words.txt: text file of smell-associated seed words
 
 Returns:
     found.json: a dictionary of books by total search_word frequency
+    {
+    "frequency":[
+                     ["author", "title", "url_code", ("matched", "words", "list")],
+                     ...
+                ], 
+                ...
+    }
+    
+_reformat found.json to found.csv_
 
-Notes: PG text is lowercased when matching against search words
+    $ python3 output_to_csv.py
+    
+Required in directory:
+    found.json
 
-----
+Returns:
+    found.csv: a csv
+    ,freq.,title,author,words
+
+Notes: 
+    * PG text is lowercased when matching against search words
+    * seed words taken from Cambridge online...conjugate forms included
+    * uses the python threading module (10 threads, each of approx 3000 books), results in 5x speed up (5h 18m instead of 24+ hours)
+
 2b_Analyse_smellword_frequencies/
-----
+-
 _various plots from 2a data_
 
 yet to be finalised
 
 
-----
-2c_Assemble_datasets/
-----
+2c_Assemble_datasets/11May 
+-
+(output:, harvesting_set.json, test_set.json, validation_set.json)
+-
 _in order of descending frequency of smell vocab, select 'literature' sources_
+
+books evaluated manually as to whether 'literature' or other.
+vim macros (added to init.vim) used to speed up the process:
+
+* delete from file and append to non-literature.csv
+let @q="1:w >> non-literature.csv\<CR>dd"
+
+* copy the title, author string into clipboard, ready for web search
+let @a='f,f,l"+yt"^'
+
+* delete from file and append to repetitions.csv
+let @r="1:w >> repetitions.csv\<CR>dd"
 
 found.csv = harvesting/ validation set 
 separated into harvesting.csv and validation.csv
 
-----
+**once the lists, harvesting.csv, test.csv and validation.csv are assembled, produce a (spaCy) parsed dataset of each**
+
+Example:
+    $ python3 get_dataset_multiprocessor.py list.csv n
+
+Args:
+    list.csv: a list of books from which to harvest extracts.
+    n: number of parallel processes to start (< number of pc threads)
+
+Outputs:
+    dataset.json {book_code: list of sentences}, where sentences are lists of word_POS
+    Note: perform for each of harvesting, test and validation set
+"""
+
+2d_annotated_set
+-
+Assemble sets of extracts, taken from test.json, into x sets of y extracts.
+z is the ratio of keyword extracts to random extracts.
+
+Example:
+    $ python3 assemble_test.py x y z
+    $ python3 assemble_test.py 10 100 0.8
+
+Args:
+    - x (int): number of sets to assemble
+    - y (int): number of extracts per set
+    - z (float): proportion of extracts to contain keywords
+
+Requires in directory:
+    test.json: {"book_code": [list of sentence, parsed sentence tuples],.. }
+"""
+
 3_Compare_toolkits/
-----
+-
 
 see folders flair/, spaCy/, stanza/ -> scripts parse the same book and report code execution time.
 
@@ -52,105 +124,34 @@ spaCy: 5s
 TBC: formalise a discussion on the relative accuracy of each toolkit based on studies of wrt. labelled datasets.
 
 
-----
-----
-5_Attempt_2/
-----
-----
-_first complete loop (minus effective precision of patterns based on validation set)_
-
+5_cycles
+-
 Notes:
-* used a single book as a harvesting set, for now
 * regex (not re) library must be used. otherwise too slow
 * solved unicode export to json problem
 
-----
-1a_Extract_text_based.../
-----
-_return extracts which seed words present_
+seed lexicon.json with seedword
+    e.g. [[[["_aroma_"]]]]
 
-    $ python3 extract_text.py seed_file.txt
+run cycles of .....
 
-Returns: 
-    extracts.json: by book url_code, dictionary of extracts
+A) 
+    $python3 get_extracts_multiprocessor 4
 
-----
-2a_Parse-extracts/
-----
-_returns spaCy parsed extracts_
+i.e., auto retrieve sentences with (previous round) of lexicon.json entries present
 
-    $ python3 DP_spacy.py extracts.json
+B) 
+    manually evalute extracts-x.txt for patterns
+    add the patterns to PATTERNS.py
 
-Returns:
-    parsed_extracts.json: by book url_code, lowercased extracts 
-    
-    Note: extracts are standardised by lowercasing, changing \n and \s+ to \s
+C) 
+    $python3 update_lexicon_multiprocess.py
 
-----
-3a_Collect..../
-----
+i.e., auto retrieve vocabulary matching patterns
 
-collect_by_patterns2.py
-----
-_compare parsed extracts to patterns in PATTERNS.py_
+D)  
+    $python3 modify_lexicon.py
 
-* collect extracts to matching pattern, output to terminal for view
-* output to terminal all extracts not yet matched
-* returns lexicon.json; a lexicon of matched smell-related vocabulary (terms subtended with [] in PATTERNS.py, pattern definition)
-
-    $ python3 collect_by_pattern2.py parsed_extracts.json
-
-PATTERNS.py
-----
-_PATTERNS.py acts as a high-level abstraction of python re/regex patterns_
-
-The are syntax-simplified patterns identified from examining terminal output of collect_by_patterns2.py, wrt. the unmatched extracts.
-
-* defining token patterns (wrt. spaCy dep_text_pos output) e.g., 
-        det__  with match any dep=det token
-        _with_ will match any token with text=with
-        __ADJ will match any adjective
-
-* in PATTERNS.py or cases can be handles, e.g.,
-        _smell|fragrance_ matches _smell_ or _fragrance
-
-* single token repetitions can be handled, e.g.,
-        __ADJ* __NOUN would match big red car and big car
-        * is zero or more and + is one or more
-
-* group repetitions are handled with {}, e.g,
-    (_and|,|or_* __NOUN}* will match the town, county and country
-
-*flag elements to be picked up as match object groups using [] (for lexicon assembly)
-    e.g., [__NOUN] _smells_VERB _like_ [__NOUN]
-
-* chunks (defined using the same syntax) defined in CHUNKS.py can be referenced, as a way of creating human readable patterns, that underly flexible and complicated patterns. 
-
-* chunks are denoted by <>
-e.g. <noun> <smells_VERB> <prep> <noun>
-
-* where e.g., \<noun> is a noun phrase defined by the pattern "det__* poss__* __PART* <adj>* compound__* _-_* __NOUN|PRON|PROPN+ {_and|,|or_* det__* <adj>* compound__* _-_* __NOUN|PRON|PROPN+}*"
-
-CHUNKS.py
-----
-_used by PATTERNS.py_
-note: later chunks ca reference earlier chunks
-
-
-----
-4_New_extracts_based.../
-----
-find new extracts based on lexicon.json, returning only those extracts which have not previously been identified.
-
-    $ python3 extract_text.py
-
-Args:
-    lexicon.json:
-    havesting.csv: 
-    previous extracts.json
-
-returns:
-    extracts.json
-
-
+cycle specific modification of lexicon.
+e.g., when considering objects as reference smells, amending _text_DET to _text_DET*
 
