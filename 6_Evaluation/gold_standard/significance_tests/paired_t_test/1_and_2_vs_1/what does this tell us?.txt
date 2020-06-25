@@ -1,0 +1,5 @@
+two tailed test: 
+    * significant: @0.99, @0.95, @0.90, @0.85, @0.80
+
+one tailed test:
+    * significant: @0.99, @0.95, @0.90, @0.85, @0.80, 0.70

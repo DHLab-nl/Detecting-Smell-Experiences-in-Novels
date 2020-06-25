@@ -1,0 +1,3 @@
+set1 - set2 mean = 0.01991150442477876
+(C. prop > t_statistic) = 0.04735393989708514
+(C. prop < t_statistic) = 0.9526460601029149

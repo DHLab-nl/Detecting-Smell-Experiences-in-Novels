@@ -1,0 +1,49 @@
+Premise:
+
+    Examining consistency of differences in TP returns, for those extracts  that are true smell experiences.
+
+    H0: there's no consistent differnence between TP counts of sets
+        i.e.mean of differences = 0 
+
+    H1: set 1 is more likely to correctly identify smell extracts (TP)
+        mean of 
+
+    where TP = 1, FP = 0
+
+
+### triola
+
+* p497 triola
+* _the advantage of using matched pairs is that we reduce extraneous variation_
+
+### https://webassign.net/idcollabstat2/Chapter10.pdf
+
+* limit the signficance test to TP + FP (i.e. extracts that are actual smell experiences)
+* convert to numerical form TP = 1, FP = 0 
+    i.e.
+        extract 1    extract 2
+set 1       1            0
+set 2       1            1
+s 1-2       0           -1
+
+Ho: mean of differences = 0
+H1: mean of difference !=0
+
+t =  (mean of diff) - 0 / (s/sqrt(n))
+
+***This is the one selected
+single tailed test (set 1 has higher TP count than set 2):
+    H0: diff_mean = 0
+    H1: diff_mean > 0
+   * if 1-cdf < 5%: reject the null
+
+two-tailed test (set 1 and set 2 have a difference TP count):
+    H0: diff mean = 0
+    H1: diff mean =! 0 
+
+    * if 2*min(1-cdf, cdf) < 5% then reject the null
+
+
+
+
+

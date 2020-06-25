@@ -1,4 +1,31 @@
-"""Calculate the precision and recall by pattern.
+"""A script which does 2 things, wrt. a specified working_folder, i.e., implementation.
+
+    1) Calculate by-pattern recall & precision from TP, TN, FP ...  from "outcome_{working_folder}.json".
+       output file : "measures_by_pattern_{working_folder}.json"
+       This is irrespective of threshold command line arg
+
+    2) determine the TP, FP, ... outcomes for group prediction based on the
+    patterns in working_folder. This is wrt. to some threshold precision, below
+    which a pattern is ignored from group prediction.
+    output file "group_results_{working_folder}.json"
+
+    group prediction: if a single pattern (included) predicted Positive (is an
+    extract), the group prediction is Positive (is an extract)
+
+    e.g., consider a group of 2 patterns, used for group prediction
+    if extract if positive (is a smell):
+        possible simultaneous pattern outcomes:
+            TP, TP or TP, FN or FN, FN
+            thus, the group pred = TP or FN, no other possibilities
+
+    if extract is negative (not a smell):
+        possible simultaneous pattern outcomes:
+            TN, TN or TN, FP or FP, FP, no other possbilities
+
+    Thus, if TP or FP occurs in a single pattern, the group prediction is positive
+    if no instance of TP or FP occurs then all patterns will be the same, one of TN or FN, group prediction is same
+
+Calculate the precision and recall by pattern.
    output a json file
 
 Example:
@@ -29,7 +56,7 @@ def main(argv):
         pattern_abstraction = entry[0]
         pattern_outcomes = entry[1]
 
-        print(pattern_abstraction)
+        # print(pattern_abstraction)
 
         TP = pattern_outcomes.count("TP")
         FP = pattern_outcomes.count("FP")
@@ -104,7 +131,6 @@ def main(argv):
     print(f"group precision = {TP / (TP + FP)}")
     print(f"group recall = {TP / (TP + FN)}")
 
-    
     with open(f"group_results_{working_folder}.json", "w") as f:
         json.dump(group_results, f, indent=4)
 
