@@ -58,12 +58,18 @@ def main(argv):
 
     # p value 
     p = t.cdf(t_stat, n-1)
+
+    print(f"n = {n}")
+    print(f"set1 - set2 mean = {x}")
+    print(f"set1 - set2 st.dev = {s}")
     print(f"(C. prop > t_statistic) = {1-p}")
     print(f"(C. prop < t_statistic) = {p}")
 
     # print output to a text file
     with open(f"./{wf}/t_test_results.txt", "w") as f:
+        f.write(f"n = {n}\n")
         f.write(f"set1 - set2 mean = {x}\n")
+        f.write(f"set1 - set2 st.dev = {s}\n")
         f.write(f"(C. prop > t_statistic) = {1-p}\n")
         f.write(f"(C. prop < t_statistic) = {p}\n")
 
