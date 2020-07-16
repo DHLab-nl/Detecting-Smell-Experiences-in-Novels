@@ -1,6 +1,6 @@
 # 0_embeddings/
 
-Retrieve the 500 google news entries closest to 'smell', investing the vocabulary of smell
+Retrieve the 500 google news entries closest to 'smell', investigating the vocabulary of smell
 
     $ python3 embeddings.py smell 500
 
