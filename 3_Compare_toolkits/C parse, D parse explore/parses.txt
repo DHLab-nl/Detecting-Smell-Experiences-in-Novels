@@ -1,9 +1,0 @@
-
-book random text
-
-
-*new extract*
-(ROOT
-  (S
-    (NP (DT the) (NN candle))
-    (VP (VBN smelled) (PP (IN of) (S (VP (NN rose)))))))

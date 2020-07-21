@@ -30,7 +30,7 @@ Calculate the precision and recall by pattern.
 
 Example:
     $python3 measures_by_pattern.py working_folder cutoff
-    $python3 measures_by_pattern.py _aroma_NOUN+ADJ/ 0.90
+    $python3 measures_by_pattern.py _aroma_NOUN+ADJ 0.90
 
 working_folder (string): folder containing PATTERNS.py of interest
 
@@ -87,18 +87,27 @@ def main(argv):
     #       thus, group takes TP is a single is TP, otherwise FN 
     #   if an extract is negative, pattern predictions can only be TN or FP
     #       thus, the group takes FP is a single FP, otherwise TN
+    #
+    # patterns are considered one-by-one in order of highest precision to lowest above cutoff
 
     group_results = {}
     # {extract_index:[list of outcomes by pattern]}
 
-    # collect group results
-    for entry in outcomes: # each entry corresponds to a pattern
-        pattern_abstraction = entry[0]
-        pattern_outcomes = entry[1]
-        pattern_precision = measurements[pattern_abstraction]["P"]
+    # reorder measurements, high prec to low , as a list
+    measurements_sorted = [(i[0], i[1]) for i in measurements.items()]
+    for i in measurements_sorted:
+        if i[1]["P"] == "unknown":
+            i[1]["P"] = -1
+    measurements_sorted = sorted(measurements_sorted, key=lambda x : x[1]["P"])
 
-        # skip patterns with no matches
-        if pattern_precision == "unknown":
+    # collect group results
+    for entry in measurements_sorted: # each entry corresponds to a pattern
+        pattern_abstraction = entry[0]
+        pattern_precision = entry[1]["P"]
+        pattern_outcomes = [i[1] for i in outcomes if i[0] == pattern_abstraction][0]
+
+        # skip patterns with unknown precision
+        if pattern_precision == "-1":
             continue
 
         # only add patterns to global group >=  than cuttoff

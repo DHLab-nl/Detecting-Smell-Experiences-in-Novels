@@ -1,5 +1,0 @@
-target 
-* nouns referenced to describe smell characteristis
-* verbs associated with the smell experiences
-
-
