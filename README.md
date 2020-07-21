@@ -1,3 +1,19 @@
+Source code to support semi-supervised, iterative bootstrapping process for the identification of linguistic patterns encapsulating smell experiences in text.
+
+# Table of contents
+* Requirements
+* Example run-through:
+    * [Catalogue all English Language Project Gutenberg Resources](Catalogue English Language Project Gutenberg Resources):
+        * [Rank by high smell association keyword](Rank by high smell association keyword)
+        * [Plot the keyword search frequences](Plot the keyword search frequences)
+        
+    * [Creating Harvesting, Validation and Evaluation datasets:](Creating Harvesting, Validation and Evaluation datasets:)
+    * [Create the Gold Standard](Create the Gold Standard)
+    
+    * [Iterative bootstrapping process](Iterative bootstrapping process)
+* Supplementary:
+    * 
+
 # 0_embeddings/
 
 Retrieve the 500 google news entries closest to 'smell', investigating the vocabulary of smell
