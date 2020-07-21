@@ -3,6 +3,7 @@ Source code to support semi-supervised, iterative bootstrapping process for the 
 # Table of contents
 * Requirements
 * Example run-through:
+    * [a relative link](readme_1.md) 
     * [Catalogue all English Language Project Gutenberg Resources](Catalogue English Language Project Gutenberg Resources):
         * [Rank by high smell association keyword](Rank by high smell association keyword)
         * [Plot the keyword search frequences](Plot the keyword search frequences)
