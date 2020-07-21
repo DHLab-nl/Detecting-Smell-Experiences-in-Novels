@@ -3,7 +3,7 @@ Source code to support semi-supervised, iterative bootstrapping process for the 
 # Table of contents
 * [Thesis Paper](Thesis.pdf)
 * [Presentation](Presentation.pdf)
-* Requirements
+* [Requirements](readme/readme_requirements.md)
 * Example run-through:
     * [Catalogue all English language Project Gutenberg resources](readme/readme_1.md) 
         * [Rank by high smell association keyword](readme/readme_2.md)
