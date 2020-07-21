@@ -1,4 +1,4 @@
-Source code to support semi-supervised, iterative bootstrapping process for the identification of linguistic patterns encapsulating smell experiences in text.
+Source code to support semi-supervised, iterative bootstrapping process for the identification (and evaluation) of linguistic patterns encapsulating smell experiences in text.
 
 # Table of contents
 * [Thesis Paper](Thesis.pdf)
