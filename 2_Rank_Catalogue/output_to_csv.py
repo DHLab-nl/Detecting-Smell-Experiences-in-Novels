@@ -1,9 +1,13 @@
-"""Convert found.json to csv: freq, title, author, words, code
-
-found.json output from search_word_frequency.py
+"""Convert found.json to csv: freq, title, author, words, code.
 
 Example:
     $ python3 output_to_csv.py
+
+Requires in directory:
+    found.json : output from search_word_frequency.py
+
+Return:
+    found.csv
 """
 import json
 
@@ -14,7 +18,8 @@ import pandas as pd
 def main():
 
     with open("found.json", "r") as f:
-        found = json.load(f)  # {freq:[[author, title, code, [words]],..], ..
+        found = json.load(f)  
+        # found = {freq:[[author, title, code, [words]],..], ..
 
     # populate a list with relevant info from found.json
     data = []  # data[i] = row i info for (to be created)
