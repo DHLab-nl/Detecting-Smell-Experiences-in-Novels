@@ -1,16 +1,22 @@
 # Create the Gold Standard
 
-Assemble x documents, of y random extracts from test.json. A proportion of the extracts, z, contain at least one high smell association keyword.
+Assemble x documents, of y random extracts from test.json.\
+A proportion of the extracts, z, contain at least one high smell association keyword.
+
+## Navigate to folder
+```
+$cd 4_Gold_Standard
+```
 
 ## Requires in folder:
 * test.json
-A symbolic link to /3_Create_Datasets/datasets/test.json
+A symbolic link to 3_Create_Datasets/datasets/test.json
 
 * search_words.txt
 a list high smell association keywords
 
+## Run...
 ```
-$cd 4_Gold_Standard
 $python3 assemble_test.py x y z
 ```
 

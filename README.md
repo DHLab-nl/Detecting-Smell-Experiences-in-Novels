@@ -12,3 +12,4 @@ Source code to support semi-supervised, iterative bootstrapping process for the 
     * [Creating Harvesting, Validation and Evaluation datasets](readme/readme_3.md)
     * [Create the Gold Standard](readme/readme_4.md)
     * [Iterative bootstrapping process](readme/readme_5.md)
+    * [Evaluation](readme/readme_6.md)

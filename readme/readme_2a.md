@@ -1,4 +1,9 @@
-## Plot the keyword search frequencies
+# Plot the keyword search frequencies
+
+## Navigate to folder
+```
+cd 2_Rank_Catalogue/plot
+```
 
 ## Requires in folder:
 * found.json
@@ -6,7 +11,6 @@ A symbolic link to found.json
 
 ## Run...
 ```
-cd 2_Rank_Catalogue/plot
 python3 histogram.py bins min_freq max_freq
 python3 boxplot.py min max
 ```

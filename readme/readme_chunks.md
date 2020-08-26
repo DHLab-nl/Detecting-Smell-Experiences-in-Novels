@@ -2,6 +2,8 @@
 
     Predefined language chunks in terms of high level abstractions. Converted by pattern_abstraction.py into python re/regex representations
     
+    These chunks have been assembled on an ad-hoc basis based on observed language chunks
+    
 E.g., 
 
 "<adj>": "{_and|or|,|-_* __ADJ+ _and|,|or|-_*}+"

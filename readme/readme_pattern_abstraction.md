@@ -4,16 +4,23 @@
     
 ## High level language
     
-The basic building block is the dependency_word_POS tag ...
+The basic building block is the dependency_word_POS tag ...\
+\
+E.g.,
     
-* Matching an unspecified dependency (leave out dependency tag)
+* To match an unspecified dependency (leave out dependency tag)
 ```
 _word_POS  
 ```
 
-* Matching an unspecified dependency and POS tag
+* To match an unspecified dependency and POS tag
 ```
 _word_
+```
+
+* To match multiple words
+```
+_hello|goobye_
 ```
 
 * Matching zero or more repetitions
@@ -29,7 +36,7 @@ _word_
 
 * denote a segment to be extracted
 ```
-_get_ [__NOUN] 
+[__NOUN] 
 ```
 
     
