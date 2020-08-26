@@ -32,9 +32,10 @@ $echo "[[[[[\"_aroma_NOUN\"]]]]]" >> _aroma_NOUN+ADJ/lexicon.json
  
 * PATTERNS.py contains two lists:
     * **identification patterns**\ i.e., a list of any and all observed patterns, which match the desired textual relationship;\
-    E.g., "\<adj\>* _exhalation_ _of_ \<noun\> \{_of_ \<noun\>\}*"
+    E.g., "\<adj\>* \<smell_noun\> \_of\_ \<noun\>"\
     * **extraction patterns**\ i.e., lists of the subset of patterns in [high-level format](readme_pattern_abstraction.md), used to populate the lexicon.\
-    E.g., "[\<adj\>] \_-\_* \<smelly_adj\> [\<noun\> \{\_of\_ \<noun\>\}*]"
+    E.g., "[\<adj\>] \<smell_noun\> \_of\_ [\<noun\>]"\
+    The items in enclosed in square brackets are extracted as a pair and appended to the lexicon.
 
 ```
 $python3  get_extracts.py 4 _aroma_NOUN+ADJ
