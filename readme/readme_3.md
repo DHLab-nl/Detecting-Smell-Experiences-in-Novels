@@ -26,15 +26,15 @@ datasets/output.json
 
 Example format of outputs' parsed text:
 
-{
-    "book_code":[
-                    (
-                        "the cat sat on the mat", 
+{\
+    "book_code":[\
+                    (\
+                        "the cat sat on the mat", \
                         "det_the_DET nsubj_cat_NOUN ROOT_sat_VERB prep_on_ADP det_the_DET pobj_mat_NOUN"
-                    ), 
-                    ...
-                ], 
-                ...
+                    ), \
+                    ...\
+                ], \
+                ...\
 }
 
 
