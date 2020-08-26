@@ -32,9 +32,9 @@ $echo "[[[[[\"_aroma_NOUN\"]]]]]" >> _aroma_NOUN+ADJ/lexicon.json
  
 * PATTERNS.py contains two lists:
     * **identification patterns**\ i.e., a list of any and all observed patterns, which match the desired textual relationship;\
-    E.g., "<adj>* _exhalation_ _of_ <noun> {_of_ <noun>}*"
+    E.g., "\<adj\>* _exhalation_ _of_ \<noun\> \{_of_ \<noun\>\}*"
     * **extraction patterns**\ i.e., lists of the subset of patterns in [high-level format](readme_pattern_abstraction.md), used to populate the lexicon.\
-    E.g., "[<adj>] _-_* <smelly_adj> [<noun> {_of_ <noun>}*]"
+    E.g., "[\<adj\>] \_-\_* \<smelly_adj\> [\<noun\> \{\_of\_ \<noun\>\}*]"
 
 ```
 $python3  get_extracts.py 4 _aroma_NOUN+ADJ
@@ -42,7 +42,7 @@ $python3  get_extracts.py 4 _aroma_NOUN+ADJ
 ```
 
 2. Manually examine extracts-{i}.txt, where i is the current cycle, for new patterns. Add observed, new patterns to PATTERNS.py as high level [abstractions](readme_pattern_abstraction.md)
-    * Any and all patterns relevant to smell extracts are defined in the list, identification_patterns
+    * Any and all patterns relevant to smell extracts are defined in the list, identification_patterns.\
     * that subset of identification_patterns that can be used to target the targeted COINCIDENT lexicon features are added to the extraction_patterns list
 
 3. Validate the proposed identification patterns against the validation set:
