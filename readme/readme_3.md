@@ -18,6 +18,9 @@ $python3 get_dataset.py harvesting.csv n
 $python3 get_dataset.py validation.csv n
 $python3 get_dataset.py test.csv n
 ```
+## Args
+n (int): number of parallel processes to run
+
 ## Output
 datasets/output.json
 
