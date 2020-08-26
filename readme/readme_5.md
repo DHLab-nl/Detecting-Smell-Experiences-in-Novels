@@ -1,8 +1,8 @@
 # Iterative Bootstrapping Process
 
 ## Requires in folder:
-* [libraries/pattern_abstraction.py](readme/readme_pattern_abstraction.md)
-* [libraries/CHUNKS.py](readme/readme_chunks.md)
+* [libraries/pattern_abstraction.py](readme_pattern_abstraction.md)
+* [libraries/CHUNKS.py](readme_chunks.md)
 
 * datasets/harvesting.json
 symbolic link of 3_Create_Datasets/datasets/harvesting.json
