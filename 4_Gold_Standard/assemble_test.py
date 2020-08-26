@@ -12,77 +12,109 @@ Args:
     - z (float): proportion of extracts to contain keywords
 
 Requires in directory:
-    test.json: {"book_code": [list of sentence, parsed sentence tuples],.. }
+    (a symbolic link to...)
+    test.json: {"book_code": [(sentence, parsed_sentence),...],.. }
 """
-
 import json
-import random
-import sys
-from collections import Counter
 import math
+import operator
+import random
+import re
+import sys
+from functools import partial, reduce
 
-import regex
+from tqdm.contrib.concurrent import process_map
 
 
 def main(argv):
 
     # get commandline arguments
-    number_of_sample_sets = int(argv[0])
-    number_of_samples_per_set = int(argv[1])
-    proportion_keywords = float(argv[2])
+    n = int(argv[0])  # number of sets
+    r = int(argv[1])  # number of samples per set
+    k = float(argv[2])  # proportion of samples to contain search words
 
-    # read in the test set
+    print("reading in the test set")
     with open("test.json", "r") as f:
         test_set = json.load(f)
+        # {"book_code": [(sentence, parsed_sentence),...],...}
 
-    # read in the keywords
+    print("reading in the search words")
     with open("search_words.txt", "r") as f:
-        keywords = f.readlines()
-    keywords = set([w.strip("\n") for w in keywords])
+        search_words = f.readlines()
+    search_words = [w.strip("\n") for w in search_words]
+    # [word,..]
 
-    # divide the test set in to [[list of extract with keywords],[list of extracts without keywords]]
-    divided_set = [[], []]
-    for book_code, extracts in test_set.items():
-        for extract, parsed_extract in extracts:
-            if keywords.intersection(set(regex.split("\s+", extract))):
-                divided_set[0].append(extract)
-            else:
-                divided_set[1].append(extract)
+    print("getting a list of sentences, by book")
+    sentences_by_book = map(lambda x: [i[0] for i in x[1]], test_set.items())
+    # [book0_list_of_sentences,..] iterator
 
-    print(f"keyword matches = {len(divided_set[0])}")
-
-    # extract the samples
-    samples = []
-    total_samples = number_of_sample_sets * number_of_samples_per_set
-
-    # keyword samples
-    samples += random.sample(
-        divided_set[0], math.ceil(total_samples * proportion_keywords)
+    print("separating sentences into those with and wihout search words")
+    sorted_by_book = process_map(
+        partial(sort_book, search_words), list(sentences_by_book), max_workers=4
     )
+    # [(book0_list_with_searchwords, book0_list_with_searchwords),..] iterator
 
-    # non-keyword samples
-    samples += random.sample(
-        divided_set[1], math.ceil(total_samples * (1-proportion_keywords))
-    )
+    # split these into two separate lists
+    print("assembling a list of sentences with search words")
+    sentences_containing = reduce(operator.concat, map(lambda b: b[0], sorted_by_book))
 
-    # shuffle all samples (in-place)
-    random.shuffle(samples)
+    print("assembling a list of sentences absent of search words")
+    sentences_absent = reduce(operator.concat, map(lambda b: b[1], sorted_by_book))
 
-    # append \n to each extract
-    samples = [s + "\n\n" for s in samples]
+    print("sampling the required number of extracts from the dataset")
+    samples_containing = random.sample(sentences_containing, math.ceil(n * r * k))
+    samples_absent = random.sample(sentences_absent, math.ceil(n * r * (1 - k)))
 
-    print(len(samples))
-
-    # save the output
-
-    # with open("samples.json", "w") as f:
-    # json.dump(samples, f, ensure_ascii=False)
-
-    for i in range(number_of_sample_sets):
+    print("saving...")
+    for i in range(n):
+        sample = (
+            samples_containing[int(i * r * k) : int((1 + i) * r * k)]
+            + samples_absent[int(i * r * (1 - k)) : int((1 + i) * r * (1 - k))]
+        )
         with open(f"./samples/test_set-{i}.txt", "w") as f:
-            f.writelines(
-                samples[i * number_of_samples_per_set: (i + 1) * number_of_samples_per_set]
-            )
+            f.writelines([s + "\n\n" for s in sample])
+
+
+def sort_book(search_words, book):
+    """Return a list of sentences as (list_with_words, list_without_words).
+
+    Args:
+        search_words (list): list of search words.
+        book (list): list of sentences.
+    """
+
+    # list of sentences containing (at least one) search word
+    with_sw = filter(
+        lambda x: x, map(lambda s: s if contains(search_words, s) else None, book)
+    )
+    # [sentence,...] iterator
+
+    # list of sentences containin no search words
+    without_sw = filter(
+        lambda x: x, map(lambda s: s if not contains(search_words, s) else None, book)
+    )
+    # [sentence,...] iterator
+
+    return (list(with_sw), list(without_sw))
+
+
+def contains(search_words, sentence):
+    """Return True if sentence contains any search_word, otherwise False."""
+
+    # list of search words
+    found = filter(
+        lambda x: x,
+        map(
+            lambda w: w if re.search("\\s(" + w + ")[\\s,.!?;]+", sentence) else None,
+            search_words,
+        ),
+    )
+    # [word,..] iterator
+
+    if len(list(found)) > 0:
+        return True
+    else:
+        return False
 
 
 if __name__ == "__main__":
