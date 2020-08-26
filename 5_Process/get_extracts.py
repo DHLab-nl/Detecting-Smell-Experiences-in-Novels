@@ -4,7 +4,7 @@ Update extracts.json and output cycle extracts as extracts-{cycle}.txt for easy 
 
 Example
     $ python3 get_extracts.py 4 working_folder
-    $ python3 get_extracts.py 4 _aroma_NOUN
+    $ python3 get_extracts.py 4 _aroma_NOUN+ADJ
 
 Args:
     n (int): number of (CPU Threads) processes to use
@@ -48,68 +48,46 @@ from PATTERNS import extraction_patterns, identification_patterns
 
 def main(argv):
 
-    # HANDLE COMMAND LINE ARGS (working folder, multicore setup)
-
-    # working folder (to find 
+    # CL arguments
     folder = argv[1]
+    n = int(argv[0])
 
-    # set up number of CPUs to use
-    if any(argv):
-        n = int(argv[0])
-    else:
-        n = 1
-
-    # GET A LIST OF SEEN EXTRACTS
-
-    # IMPORT extracts.json:
-    #   previous_extracts = {"cycle":[([seeds], extract, parsed_extract),..],..}
-    #       (a new entry for current cycle added)
-    #   current_cycle = "cycle"
+    # get a list of previously seen extracts, from all prior cycles
     extracts_file = folder + "/extracts.json"
-    previous_extracts, current_cycle = __get_extracts(extracts_file)
+    previous_extracts, current_cycle = get_extracts(extracts_file)
+    # previous_extracts = {"cycle":[([seeds], extract, parsed_extract),..],..}
+
     print(f"current cycle = {current_cycle}")
 
+    seen_extracts = extracts_as_set(previous_extracts)
     # seen_extracts = {set of unparsed extracts previously seen}
-    seen_extracts = __extracts_as_set(previous_extracts)
 
-    # GET A LIST OF SEEN EXTRACTS COMPILED AS REGEX PATTERNS
-
-    # lexicon
+    # Collect the previous cycle's lexicon entries
     with open(folder + "/lexicon.json", "r") as f:
         lexicon = json.load(f)
-    vocabulary = __get_lexicon(lexicon)  # [(compiled re, (coincident phrases),..]
-
-    # previous previous abstracted patterns seen by lexicon
-    # seen_abstractions = []  # [pattern1, pattern2,...]
-    # for cycle in lexicon:
-    #     for entry in cycle:
-    #         if len(entry) > 1:
-    #             seen_abstractions += [entry[1]]
-
-    # GET A LIST OF COMPILED PATTERNS USED PREVIOUSLY TO EXTRACT LEXICON ENTRIES (i.e., patterns seen)
-
-    seen_abstractions = identification_patterns
+    vocabulary = get_lexicon(lexicon)  # [(compiled re, (coincident phrases),..]
+    # [(compiled re, (coincident phrases),..]
 
     # compile previously seen abstractions
-    seen_patterns = __compile_patterns(seen_abstractions)
+    seen_abstractions = identification_patterns
+    seen_patterns = compile_patterns(seen_abstractions)
 
-    # ITERATE THROUGH HARVESTING SET, EXTRACT EXRACTS PREVIOUSLY UNSEEN and NOT
-    # MATCHING PATTERNS USED TO EXTRACT LEXICON ENTRIES
+    # ITERATE THROUGH HARVESTING SET, extracting where
+    #   * an extract is unseen
+    #   * and where known patterns do not match
 
-    # harvesting set 
-    # dataset = {"book_code": [(sentence, parsed sentence),..]}
     with open("./datasets/harvesting.json", "r") as f:
         dataset = json.load(f)
-
+    # dataset = {"book_code": [(sentence, parsed sentence),..]}
 
     # iterate through the harvesting set
     for book_index, (book_code, extracts) in enumerate(tqdm(dataset.items())):
 
         # discard extracts already seen
-        extracts_trimmed = __trim_extracts(extracts, seen_extracts)  # [(extract, parsed_extract),...]
+        extracts_trimmed = trim_extracts(extracts, seen_extracts)  # [(extract, parsed_extract),...]
 
         # split extracts n chunks, for multi-proccessing
-        extract_sets = __group_extracts(extracts_trimmed, n)  # [[(extract, parsed_extract),...],...]
+        extract_sets = group_extracts(extracts_trimmed, n)  # [[(extract, parsed_extract),...],...]
 
         processes = []
         queue = multiprocessing.Queue()
@@ -131,17 +109,6 @@ def main(argv):
         for process in processes:
             process.join()
 
-        # WRITE EXTRACTS EACH CYCLE FOR INSPECTION
-
-        # ensure current cycles' extracts are unique
-        seen = []
-        unique = []
-        for phrases, extract, parsed_extract in previous_extracts[current_cycle]:
-            if extract not in seen:
-                unique.append((phrases, extract, parsed_extract))
-            seen += [extract]
-        previous_extracts[current_cycle] = unique
-
         # save to json
         with open(folder + "/extracts.json", "w") as f:
             json.dump(previous_extracts, f, ensure_ascii=False)
@@ -160,13 +127,15 @@ def mapped_function(extract_set, vocabulary, seen_patterns, queue):
     """
 
     returned = []
+
     for extract, parsed_extract in extract_set:
-        # does the extract containt the concident phrases?
+
         for v_pattern, phrases in vocabulary:
             mo_lexicon = regex.search(v_pattern, parsed_extract)
+
             if mo_lexicon:
-                mo_seen = None
                 # check does not conform to a seen pattern
+                mo_seen = None
                 for seen_abstraction, seen_compiled in seen_patterns:
                     mo_seen = regex.match(seen_compiled, parsed_extract)
                     if mo_seen:
@@ -183,7 +152,7 @@ def mapped_function(extract_set, vocabulary, seen_patterns, queue):
 
     queue.put(returned)
 
-def __get_extracts(file):
+def get_extracts(file):
     """Return existing extracts file container or create new.
     """
 
@@ -206,7 +175,7 @@ def __get_extracts(file):
     return previous_extracts, current_cycle
 
 
-def __extracts_as_set(extracts):
+def extracts_as_set(extracts):
     """Return the extracts to date as a set
     Args:
         extracts (dict): {"cycle":[([seeds], extract, parsed_extract),..],..}
@@ -224,8 +193,8 @@ def __extracts_as_set(extracts):
 
     return seen_extracts
 
-def __get_lexicon(lexicon):
-    """Return the lexicon as a list of (compiled re, (coincident phrases)).
+def get_lexicon(lexicon):
+    """Return preivious lexicon vocab as a list of (compiled re, (coincident phrases)).
     Args:
         lexicon.json:   [
                             # cycle 0
@@ -260,7 +229,7 @@ def __get_lexicon(lexicon):
     return patterns
 
 
-def __compile_patterns(abstractions):
+def compile_patterns(abstractions):
     """Assemble list of (abstracted_pattern, compiled) tuples of abstracted patterns.
 
     Args:
@@ -285,7 +254,7 @@ def __compile_patterns(abstractions):
     return patterns
 
 
-def __trim_extracts(extracts, seen_extracts):
+def trim_extracts(extracts, seen_extracts):
     """Return a list of (extract, parsed_extract) for unseen extracts, not conforming to a known pattern.
     Args:
         extracts (list): [(sentence, parsed sentence),..]
@@ -299,7 +268,7 @@ def __trim_extracts(extracts, seen_extracts):
 
     return extracts_trimmed
 
-def __group_extracts(extracts, n):
+def group_extracts(extracts, n):
     """Return extracts as a list of n lists of extracts (for multiprocessing)
        e.g., where n = 4, [[(extract, parsed_extract),...],[],[],[]]
 
