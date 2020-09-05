@@ -1,4 +1,5 @@
-"""Identifies the search word frequency for every book catalogue.json.
+"""Identifies the search word frequency wrt. search_words.txt for every book in
+catalogue.json.
 
 Example:
     $ python3 search_word_frequency.py n
@@ -37,20 +38,20 @@ def main(argv):
     n = int(argv[0])
 
     # load the catalogue
-    with open("catalogue.json", "r") as f:
+    with open("catalogue.json", "r", encoding="utf-8") as f:
         catalogue = json.load(f)  # {"author":[(title,code),..],..}
 
     # load the search words
     with open("search_words.txt", "r") as f:
         search_words = [word.strip() for word in f.readlines()]
+        # ["smell",...]
 
     # convert catalogue to a single list of all books' info
     books = []
-    # [(author, title, code),...]
-
     for author, l in list(catalogue.items()):
         for title, code in l:
             books.append((author, title, code))
+    # books = [(author, title, code),...]
 
     # (multiprocessor) scan books for
     results = filter(
