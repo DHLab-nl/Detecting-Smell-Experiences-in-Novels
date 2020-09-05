@@ -23,17 +23,17 @@ def main(argv):
     gutindex = argv[0]
 
     # iterate over project gutenberg offline gutindex, collect EL books
-    with open(gutindex, "r") as f:
+    with open(gutindex, "r", encoding="utf-8") as f:
 
         lines = f.read()
 
-        # collect paragraphs which start in the form, "Knock at a Venture, by Eden Phillpotts      61549"
+        # collect WHOLE PARAGRAPHS which start in the form, "Knock at a Venture, by Eden Phillpotts      61549"
         pattern = regex.compile(
             r".*?,\sby\s[\w\s]+\s+\d+.*?(?=.*?,\sby\s[\w\s]+\s+\d+)", re.DOTALL
         )
         paragraphs = regex.findall(pattern, lines)
 
-        # extract EL book info from the paragraphs
+        # extract (EL-only) book info from the paragraphs
         books = map(get_books_from_text, paragraphs)
         EL_books = list(filter(lambda x: x, books))  # non EL books listed as None
 
@@ -44,7 +44,7 @@ def main(argv):
 
     # output catalogue to json
     with open("catalogue.json", "w") as f:
-        json.dump(catalogue, f, indent=4)
+        json.dump(catalogue, f, indent=4, ensure_ascii=False)
 
     print(f"total number of English books: {len(EL_books)}")
 
