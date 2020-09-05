@@ -1,4 +1,4 @@
-"""Check number of sentence overlaps in /datasets.
+"""Check number of sentence overlaps in the files of ./samples
 """
 import os
 
