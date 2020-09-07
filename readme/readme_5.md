@@ -1,5 +1,7 @@
 # Iterative Bootstrapping Process
 
+    Perform the iterative bootstrapping process with respect to the assembled harvesting.json and validation.json datasets.
+
 ## Navigate to folder:
 ```
 $cd 5_Process
@@ -8,17 +10,18 @@ $cd 5_Process
 ## Requires in folder:
 * [libraries/pattern_abstraction.py](readme_pattern_abstraction.md)
 * [libraries/CHUNKS.py](readme_chunks.md)
+* libraries/PATTERNS_template.py
 
 * datasets/harvesting.json\
-symbolic link to 3_Create_Datasets/datasets/harvesting.json
+A symbolic link to 3_Create_Datasets/datasets/harvesting.json
 
 * datasets/validation.json\
-symbolic link to 3_Create_Datasets/datasets/validation.json
+A symbolic link to 3_Create_Datasets/datasets/validation.json
 
-## Run...
+## Set up the implementation folder 
 E.g., targeting NOUN and ADJ features, seeding with "_aroma_NOUN"
 
-### Create a subfolder to store info, initialise PATTERNS.py, initialise lexicon.json
+### Create a subfolder to store info, initialise PATTERNS.py, initialise lexicon.json with "_aroma_NOUN"
 ```
 $mkdir _aroma_NOUN+ADJ
 $cp libraries/PATTERNS_template.py _aroma_NOUN+ADJ/PATTERNS.py
@@ -68,6 +71,12 @@ $python3 validation_statistics.py _aroma_VERB+ADJ
 $python3 update_lexicon.py 4 _aroma_NOUN+ADJ
 # where 4 is the number of concurrent threads (change as appropriate)
 ```
+
+5. Modify the lexicon entries, converting __DET to __DET*
+```
+$python3 modify_lexicon.py _aroma_NOUN+ADJ
+```
+
 
 REPEAT
 

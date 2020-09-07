@@ -1,72 +1,24 @@
 # Evaluation of the methodology outcomes
 
-## Assemble gold standard into a single reference json
+Refer to 6_Evaluation/annotation\ guidelines for the instructions for a copy of the text for annotation and the corresponding annotation instructions.
 
-### Navigate to the folder
-```
-$cd 6_Evaluation/annotations
-```
+## Evaluation of the Identification patterns
 
-### Required in folder
-*  Recogito annotator tagged text in .xml format, in folders... set{i}/annotator/set{i}.xml
+    i.e., The performance of patterns in identifying smell experiences as tested against a gold standard of manual extract annotations.
 
-### Assemble a json of annotations from Recogito .xml outputs
-output: annotations.json
-```
-$python get_annotations.py
-```
+### Assembly of the gold standard
+* [Assemble a gold standard set of annotated extracts](assemble_annotations.md):
+    * [inter-annotator agreement for set0](agreement.md)
 
-### calculate inter-annotator agreement wrt. set0
+### Determine pattern prediction outcomes, pattern precision & recall and produce grouped pattern prediction for a range of precision cut-offs.
+* [Determine the prediction outcomes of identification patterns against gold-standard](prediction_outcomes.md) (i.e., TP, FP etc. by sentence, by pattern)
+* [Determine the estimated recall and precision statistics, by pattern](pattern_stats.md)
 
-Note: command line ouput of each annotator pairs cohen kappa score
-```
-$python3 agreement.py set0 "['d', 'o']"  # where either 'd' or 'o' considered a match
-$python3 agreement.py set0 "['o']"  # where tag 'o' only matches 
-$python3 agreement.py set0 "['v']"  # where tag 'v' only matches 
-```
+### Significance Tests
+Refer to 6_Evaluation/gold_standard/significance_tests for the methodology used to perform significance tests
 
-## Evaluate the identification_patterns against the gold standard
-
-### Navigate to the folder
-```
-$cd 6_Evaluation/gold_standard
-```
-
-### Required in folder
-* annotations.json\
-symbolic link to 6_Evaluation/annotations/annotations.json
-* folder _aroma_NOUN+VERB, containing PATTERNS.py from the iterative bootstrapping runs
-* folder _aroma_NOUN+ADJ, containing PATTERNS.py from the iterative bootstrapping runs
-* folder reference_scenario, containing PATTERNS.py with a list of high smell association keywords
-* libraries : a symbolic link to 5_Process/libraries
-
-### flag each pattern of identification_patterns matching or failure to match against the gold standard as TP, FP, TN, FN
-
-Where n is the number of parallel processes to run (e.g., 4)
-```
-$python3 outcomes_by_pattern.py n _aroma_NOUN+ADJ
-$python3 outcomes_by_pattern.py n _aroma_NOUN+VERB
-$python3 outcomes_by_pattern.py n reference_scenario
-```
-
-###Output
-*outcomes__aroma_NOUN+ADJ.json
-*outcomes__aroma_NOUN+VERB.json
-*outcomes_reference_scenario.json
-
-## Calculate the precision & recall of each identification pattern wrt. the gold standard AND calculate the groups prediction precision and recall wrt. a specified minimum precision threshold, above which a pattern is included in group prediciton
-
-*One or more identification patterns in a group prediction, matching against a sentence, is a group prediction of positive*
-
-Note: in outocomes__folder.json, we have a list of TP, FP, TN, FN records by pattern.
-Thus,
-* gold standard = True, 
-```
-
-```
-
-
-
+## Evaluation of pattern performance in targetting lexicon features
+[Notes](lexicon_feature_targeting.md)
 
 
 

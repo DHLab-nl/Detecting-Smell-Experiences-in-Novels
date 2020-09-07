@@ -1,6 +1,6 @@
 # Rank by high smell association keyword frequency
 
-    Rank the English language texts in terms of high-smell association frequency, as indicative of number of smell experiences in each text.
+    Rank the English language texts in terms of high-smell association frequency, assumed indicative of number of smell experiences in each text.
     
 ## Navigate to folder
 ```

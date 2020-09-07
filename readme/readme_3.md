@@ -9,7 +9,7 @@ $cd 3_Create_Datasets
 ```
 
 ## Requires in folder:
-* harvesting.csv, test.csv and validation.csv, MANUALLY assembled from 2_Rank_Catalogue/found.csv, removing repetitions, and non target texts
+* harvesting.csv, test.csv and validation.csv, MANUALLY assembled from 2_Rank_Catalogue/found.csv, removing repetitions, and non-target (i.e., non 'literature') texts
     
 ## Run...
 where n is the number of parallel threads to run...
@@ -21,7 +21,7 @@ $python3 get_dataset.py test.csv n
 ## Args
 n (int): number of parallel processes to run
 
-## Output
+## Returns
 datasets/output.json
 
 Example format of outputs' parsed text:
@@ -37,6 +37,7 @@ Example format of outputs' parsed text:
                 ...\
 }
 
+# Note: Rename the resulting output.json to harvesting.json, test.json or validation.json as appropriate
 
 
 
