@@ -1,4 +1,4 @@
-"""count unique occurences of tags for each extract
+"""Report the number of occurences of each tag in annotations.json.
 """
 import json
 
@@ -29,8 +29,6 @@ def main():
             output[tag] += 1
 
     print(output)
-
-
 
 
 if __name__ == "__main__":
