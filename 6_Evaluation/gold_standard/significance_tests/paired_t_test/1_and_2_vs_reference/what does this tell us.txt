@@ -1,2 +1,0 @@
-one tailed H0: 1 and 2 > ref
-significant: @0.99, @0.95, @0.90

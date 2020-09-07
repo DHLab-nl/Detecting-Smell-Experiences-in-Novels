@@ -1,0 +1,5 @@
+n = 452
+set1 - set2 mean = -0.25663716814159293
+set1 - set2 st.dev = 0.4372614040444313
+(C. prop > t_statistic) = 1.0
+(C. prop < t_statistic) = 3.3264206621992644e-31

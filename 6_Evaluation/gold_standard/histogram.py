@@ -51,7 +51,7 @@ def main(argv):
     else:
         data_max = 1e6
 
-    with open(f"measures_by_pattern_{working_folder}.json", "r") as f:
+    with open(f"./precision_recall_stats_patterns/stats_by_pattern_{working_folder}.json", "r") as f:
         record = json.load(f)
     frequencies = [entry["P"] for pattern_abstraction, entry in record.items() if entry["P"] != "unknown"]
 

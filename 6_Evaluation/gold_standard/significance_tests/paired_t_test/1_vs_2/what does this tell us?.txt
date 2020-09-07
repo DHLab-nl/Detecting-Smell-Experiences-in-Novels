@@ -1,4 +1,0 @@
-one & two-tailed
-sig diff @0.90, @0.85, 0.80, 0.7, 0
-
-
