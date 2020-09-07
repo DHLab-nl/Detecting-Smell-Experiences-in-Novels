@@ -1,4 +1,3 @@
-# place patterns in order of decreasing complexity, such that the most complex is picked up first
 extraction_patterns = [
     #----
     #other

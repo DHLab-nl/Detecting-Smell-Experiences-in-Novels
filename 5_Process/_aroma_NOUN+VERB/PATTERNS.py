@@ -1,6 +1,3 @@
-# (BASIC) ID patterns are those patterns which
-#   * may be useful in identifying extracts at the conculsion of the cycles
-#   * but are too generic (and therefore commented out) to use to exclude new extracts
 extraction_patterns = [
     # -----
     # other
