@@ -39,6 +39,13 @@ _hello|goobye_
 [__NOUN] 
 ```
 
-    
+## Examples
 
-    
+1. Capable of capturing, e.g., "the sweet-scented flowers"
+
+"[<adj>] _-_* <smelly_adj> [<noun> {_of_ <noun>}*]"
+
+Notes:
+* <ad>, <noun> and <smelly_adj> are pre-defined chunks defined in /libraries/CHUNKS.py
+* [<adj>] and [<noun> {_of_ <noun>}*] are being extracted as lexicon pairs
+
