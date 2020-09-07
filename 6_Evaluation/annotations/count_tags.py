@@ -1,4 +1,4 @@
-"""count unique occurences of tags for each extract
+"""Count unique occurences of tags in annotations.json.
 """
 import json
 

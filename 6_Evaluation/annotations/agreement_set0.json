@@ -2,21 +2,21 @@
     "0": [
         "Wine and fruit stood on the table near the bed, with scented water, a rouge-pot, and a bowl of flowers.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "o"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
+                    "o",
+                    "o",
+                    "o",
                     "o"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
-                    "o",
-                    "o",
-                    "o",
                     "o"
                 ]
             ]
@@ -25,20 +25,20 @@
     "1": [
         "In the meanwhile she had prepared by her handmaids in a large vat lamp-black mixed with oil and scented with musk and other perfumes, and she made ready four pieces of rag anointed with it, and she caused to be made a large trunk with a fastening outside.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "o"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -46,17 +46,17 @@
     "2": [
         "and a human life could have all sweet scents and bright tints and glad sounds fall out of it, and not to come back!",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -66,50 +66,50 @@
     "3": [
         "Igraine saw the rabble of Saxons, light-armed kerns and Irish gallowglasses, split and crack like a crumbling wall.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "4": [
         "When he heard that, he was amazed and began to murmur--&quot;How can I have slain a Brahman, my sovereign?&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "5": [
         "In this walk with Bigot round the glorious garden, with God's flowers shedding fragrance around them; with God's stars shining overhead above all the glitter and illusion of the thousand lamps, Angelique repeated to herself the terrific words, &quot;Bigot loves that pale, sad face too well ever to marry me while its possessor lives at Beaumanoir--or while she lives at all!&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "o"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -119,19 +119,19 @@
     "6": [
         "As Hawksworth seated himself and turned toward the basin the servant held waiting, he caught the fresh aroma of a full bouquet, as though the fragrances of some tropic Eden had been distilled into the water.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d",
                     "d"
@@ -142,51 +142,51 @@
     "7": [
         "When the god heard this speech of the afflicted Vetala, he said to me--&quot;Go and set her free,&quot; then I went through the air and came up with the maiden.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "8": [
         "-- &quot;I thought I was not good enough for you,&quot; she said softly.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "9": [
         "And do you know, my charming young lady, and you, my generous protector, do you know, you who breathe forth virtue and goodness, and who perfume that church where my daughter sees you every day when she says her prayers?—For I have brought up my children religiously, sir.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
+                    "o",
                     "o"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
-                    "o",
                     "o"
                 ]
             ]
@@ -195,17 +195,17 @@
     "10": [
         "Was it the perfume of the lotos and the bees?",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -215,31 +215,31 @@
     "11": [
         "So silently we seem'd to speak, So slowly moved about, As we had lent her half our powers To eke her living out.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "12": [
         "Therefore 'tis time she tells him to uncover Those radiant jesters, and disperse her fears, Whereby her April face is shaded over, Like rainy clouds just ripe for showering tears; Nay, if he will not wake, so poor she gets, Herself must open those lock'd-up cabinets.",
         {
-            "Marieke": [],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "M": [],
+            "I": [
                 [
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -247,24 +247,24 @@
     "13": [
         "II Drouth weights the trees, and from the farm-house eaves The locust, pulse-beat of the summer day, Throbs; and the lane, that shambles under leaves Limp with the heat--a league of rutty way-- Is lost in dust; and sultry scents of hay Breathe from the panting meadows heaped with sheaves-- Now, now, O bird, what hint is there of rain, In thirsty heaven or on burning plain, That thy keen eye perceives?",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d",
-                    "v"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "d",
                     "d",
                     "d"
+                ]
+            ],
+            "L": [
+                [
+                    "d",
+                    "v"
                 ]
             ]
         }
@@ -272,20 +272,20 @@
     "14": [
         "He could smell the sweetness of his brother’s sweat.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
+                    "v",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
-                    "v",
                     "d"
                 ]
             ]
@@ -294,65 +294,65 @@
     "15": [
         "&quot;Go on.&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "16": [
         "&quot;I confess I do not see how that is to be done,&quot; he owned.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "17": [
         "&quot;You breathe like one in pain, and your voice is strange.&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "18": [
         "They send each other the song of the birds, the perfume of the flowers, the smiles of children, the light of the sun, the sighings of the breeze, the rays of stars, all creation.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -362,52 +362,52 @@
     "19": [
         "His beauty was spiritual, which to be recognized, requires spirituality--a feminine quality.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "20": [
         "Jadar smiled and leaned forward, dropping his voice again and switching from Turki to Rajasthani.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "21": [
         "So he ran and embraced him, and bedewed him with copious tears, as if he wished to wash off the evil smell he had contracted by living in the gulf of the fish's maw.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -415,19 +415,19 @@
     "22": [
         "And I was never perfectly certain whether that sniff was one of the mind, or of the body, or of both.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "o"
                 ]
             ],
-            "Louisa": [
-                [
-                    "s"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d"
+                ]
+            ],
+            "L": [
+                [
+                    "s"
                 ]
             ]
         }
@@ -435,19 +435,19 @@
     "23": [
         "The past was now a wounded dream to her, ripe and beautiful, yet fruited with such mute pain as only a woman's heart can feel.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -455,20 +455,20 @@
     "24": [
         "&quot;Fair words are like flowers, Chevalier,&quot; replied she, &quot;sweet to smell and pretty to look at; but love feeds on ripe fruit.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "d",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
                     "d"
                 ]
             ]
@@ -477,17 +477,17 @@
     "25": [
         "Maddened by the smell of blood, he whipped the torn half upward and slammed it once more against the hard earth.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -497,51 +497,51 @@
     "26": [
         "I was determined to get at the truth and questioned him persistently, and then he told me all.’ ‘_All!_’ exclaimed I, opening my eyes, for the word seemed to indicate some very large matter lying behind his confession.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "27": [
         "&quot;I can stand so much trouble.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "28": [
         "Now he caught a new scent, the harsh smell he remembered from the box the governor had offered.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "o",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "o",
                     "d"
@@ -552,19 +552,19 @@
     "29": [
         "There was a smell of decaying leaves and of dog.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "v"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -572,20 +572,20 @@
     "30": [
         "He told himself he would smell like the fetid one, he would let the sagging elasticity completely peel off his underwear embarrassingly, and he would eat stray cats in the park but he would not sacrifice his newly discovered integrity for the sake of comfort.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "v"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -593,51 +593,51 @@
     "31": [
         "Making my way around a grandfather's clock that ticked hollowly beside the door, I followed her into a room on the left of the passage, from either wall of which a pair of enormous antlers threatened each other under the discoloured ceiling.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "32": [
         "Baring his shoulder under the smelly sheepskin coat, he lifted a bandage gingerly to show the clean opening out of which King had coaxed a bullet the day before.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "s"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "33": [
         "I could have journey'd contentedly till night through these flat and odorous sea-prairies.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "d"
+                ]
+            ],
+            "L": [
                 [
                     "u"
-                ]
-            ],
-            "Inger": [
-                [
-                    "d"
                 ]
             ]
         }
@@ -645,20 +645,20 @@
     "34": [
         "When the day was fully awake he walked the grass-path in the garden like a watchman, with the scent of honeysuckle and thyme in his nostrils, and a blaze of flowers at his feet.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -666,53 +666,53 @@
     "35": [
         "The crawling things, then, which reeked abominably might be Elementals (so Dr. Cairn reasoned) superimposed upon Robert Cairn's consciousness by a directing, malignant intelligence.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "d"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "36": [
         "He stood in full view of the audience, well aware that he was attracting everyone’s attention, yet as much at ease as though he were in his own room.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "37": [
         "I had a maid, too, Fleming, with a pointed face and greenish eyes, who, unlike Mrs Bowater, did not snort, but sniffed at things.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "v"
                 ]
             ],
-            "Louisa": [
-                [
-                    "s"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "v"
+                ]
+            ],
+            "L": [
+                [
+                    "s"
                 ]
             ]
         }
@@ -720,21 +720,21 @@
     "38": [
         "Had I not been jury-rigged, with one of my spars shot away, I should have dearly loved to have strapped on my hanger and come with you to smell gunpowder once more.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "v",
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -742,20 +742,20 @@
     "39": [
         "The whole air reeked with smoke.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -763,38 +763,38 @@
     "40": [
         "The fetid one slammed him with poignant expletives to which the second eldest smiled and nodded his head.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "41": [
         "In the evening, a dreamy vapor exhaled from the garden and enveloped it; a shroud of mist, a calm and celestial sadness covered it; the intoxicating perfume of the honeysuckles and convolvulus poured out from every part of it, like an exquisite and subtle poison; the last appeals of the woodpeckers and the wagtails were audible as they dozed among the branches; one felt the sacred intimacy of the birds and the trees; by day the wings rejoice the leaves, by night the leaves protect the wings.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "o"
+                ]
+            ],
+            "L": [
                 [
                     "d",
                     "v"
-                ]
-            ],
-            "Inger": [
-                [
-                    "o"
                 ]
             ]
         }
@@ -802,17 +802,17 @@
     "42": [
         "The orchards saturated the calm atmosphere with their odorous respiration.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "o"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "o"
                 ]
@@ -822,37 +822,37 @@
     "43": [
         "A time-worn look and scent of old oak attach both to the chair and the person occupying it.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "d",
                     "v"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "44": [
         "A note&quot;--sniff--sniff--&quot;on scented paper!&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "s",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "s",
                     "d"
@@ -863,58 +863,58 @@
     "45": [
         "The air was hot, and under the high sun it would doubtless have blown with a parching bite that must have rendered it even less endurable than the motionless atmosphere of the calm; but the dew moistened it now; it was a damp night air, with a smell of rain behind it besides, and the gushing of it upon the face was inexpressibly delicious and refreshing.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
                     "d"
                 ]
             ]
         }
     ],
     "46": [
-        "Seated beside her aromatic rest, In silence musing on her loveliness, Her knight and troubadour.",
+        "Seated beside her aromatic rest, In silence musing on her loveliness, Her knight and troubadour.i don't understand this one!",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [],
-            "Inger": [
+            "I": [
                 [
                     "o"
                 ]
-            ]
+            ],
+            "L": []
         }
     ],
     "47": [
         "We held a grim silence, saving that as the bow oar picked up his boat-hook he expectorated violently to the evil smell that seemed to come floating off the vessel’s side as she rolled towards us, driving the air our way.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
                     "v",
                     "v"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -922,53 +922,53 @@
     "48": [
         "“We must have an explanation...” “I know it and shall prove it,” said Rostóv.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "49": [
         "But Natásha was not asleep; with pale face and fixed wide-open eyes she looked straight before her.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "50": [
         "Spices crush'd, their pungence yield, Trodden scents their sweets respire; Would you have its strength reveal'd?",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d",
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
+                    "d",
                     "d"
                 ]
             ]
@@ -977,17 +977,17 @@
     "51": [
         "Silence--the perfume was stifling.... A voice, seeming to come from a great distance, cried:--&quot;On your knees to the Book of Thoth!",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -997,24 +997,24 @@
     "52": [
         "There had been a time that he would have sniffed at this new city like one of the myriad crazed but gently starving dogs (after all, in certain areas of the streets, pheromones and urinary molecules dominated over the odors of car exhausts) but, as he guessed, Bangkok was always more tempting from afar.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "v",
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "v",
                     "o",
                     "d",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
+                    "v",
                     "d"
                 ]
             ]
@@ -1023,35 +1023,35 @@
     "53": [
         "Then the swan said--&quot;Set me free, O king, for I have come to benefit you; listen, I will tell you.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "54": [
-        "'It is as well, perhaps,' said Saxon, 'that we gave them the slip, for that young springald might have smelled a rat and played us some ill-turn.",
+        "'It is as well, perhaps,' said Saxon, 'that we gave them the slip, for that young springald might have smelled a ratcommon phrase but not actually smelling and played us some ill-turn.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "v"
+                ]
+            ],
+            "L": [
                 [
                     "s"
-                ]
-            ],
-            "Inger": [
-                [
-                    "v"
                 ]
             ]
         }
@@ -1059,20 +1059,20 @@
     "55": [
         "Accustomed to the cold wind of Madrid and to the winter rains, Rafael inhaled, with a sense of voluptuous pleasure, the warm breeze that wafted the perfume of the blossoming orchards through the narrow lanes of the ancient town.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "v",
                     "d"
@@ -1083,17 +1083,17 @@
     "56": [
         "He turned left and headed toward the banks of the Jamuna, hoping the smells and sounds of water would soothe his mind.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -1103,56 +1103,56 @@
     "57": [
         "They had mingled breath, and taken the savour of each other's souls.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "58": [
         "Faintly felt The shadow of her hair, whose mists Were twilight-deep and dimly smelt Of shroud and sepulchre.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "d"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "59": [
         "A few more whiffs of my segar And then, in Fancy's airy car, Have with thee for the skies:-- How oft this fragrant smoke upcurl'd Hath borne me from this little world, And all that in it lies!-- III.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d",
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "v",
                     "o",
                     "d",
                     "v"
+                ]
+            ],
+            "L": [
+                [
+                    "d",
+                    "d"
                 ]
             ]
         }
@@ -1160,19 +1160,19 @@
     "60": [
         "As he set the second lamp down he became aware of a subtle interesting smell, and memory took back at once to Yasmini's room in the Chandni Chowk in Delhi where he had smelled it first.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d",
                     "v"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d",
                     "v"
@@ -1183,22 +1183,22 @@
     "61": [
         "Between each pair of columns an elegant table of cedar bore on its platform a bronze cup filled with scented oil, from which the cotton wicks drew an odoriferous light.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "o"
                 ]
             ],
-            "Louisa": [
-                [
-                    "o"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "d",
                     "d"
+                ]
+            ],
+            "L": [
+                [
+                    "o"
                 ]
             ]
         }
@@ -1206,19 +1206,19 @@
     "62": [
         "While they talked he had passed down towards the cottage, accompliced by the trees, slipping from trunk to trunk, to enter the cottage itself while the girls' faces were turned from it towards the pool.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -1226,21 +1226,21 @@
     "63": [
         "&quot;The pastoral cowslips are our little pets, And daisy stars, whose firmament is green; Pansies, and those veil'd nuns, meek violets, Sighing to that warm world from which they screen; And golden daffodils, pluck'd for May's Queen; And lonely harebells, quaking on the heath; And Hyacinth, long since a fair youth seen, Whose tuneful voice, turn'd fragrance in his breath, Kiss'd by sad Zephyr, guilty of his death.&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "o"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "o",
+                    "o",
+                    "o"
+                ]
+            ],
+            "L": [
                 [
                     "u"
-                ]
-            ],
-            "Inger": [
-                [
-                    "o",
-                    "o",
-                    "o"
                 ]
             ]
         }
@@ -1248,17 +1248,17 @@
     "64": [
         "The darkness was odorous with a heavy perfume.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -1268,19 +1268,19 @@
     "65": [
         "The report of the seizure stated that the drawer exhaled a strong smell of powder.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "v",
                     "d"
@@ -1291,22 +1291,22 @@
     "66": [
         "A faint perfume stole to his nostrils--that of the secret incense; and the ring was the ring of the Witch-Queen!",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
                     "s",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
                     "d"
                 ]
             ]
@@ -1315,22 +1315,22 @@
     "67": [
         "Longfellow, reminiscent, polish'd, elegant, with the air of finest conventional library, picture-gallery or parlor, with ladies and gentlemen in them, and plush and rosewood, and ground-glass lamps, and mahogany and ebony furniture, and a silver inkstand and scented satin paper to write on.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
                     "o",
                     "o",
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -1338,37 +1338,37 @@
     "68": [
         "Her skin was also whiter than the fetid one’s infatuation and instead of being dark, thick, and puffy like a durable and well tread tire she was a thin sheath, almost like a transparent condom, and perfectly unblemished.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "69": [
         "Natásha ate of everything and thought she had never seen or eaten such buttermilk cakes, such aromatic jam, such honey-and-nut sweets, or such a chicken anywhere.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "o",
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -1376,36 +1376,36 @@
     "70": [
         "&quot;This vial,&quot; continued she, lifting up another from the casket and replacing the first, licking her thin lips with profound satisfaction as she did so,--&quot;this contains the acrid venom that grips the heart like the claws of a tiger, and the man drops down dead at the time appointed.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "d",
                     "v"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "71": [
         "The house had a scent of tragedy about it that was far from comforting.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "d"
+                ]
+            ],
+            "L": [
                 [
                     "s"
-                ]
-            ],
-            "Inger": [
-                [
-                    "d"
                 ]
             ]
         }
@@ -1413,48 +1413,48 @@
     "72": [
         "A rich person ought to have a strong stomach.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "73": [
         "While we sojourned in the cave, a full month had passed away, ye monkeys.",
         {
-            "Marieke": [],
-            "Louisa": [
+            "M": [],
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "74": [
         "Purposing, then, to still fill out, from time to time through years to come, the following volume, (unless prevented,) I conclude this preface to the first instalment of it, pencil'd in the open air, on my fifty-third birth-day, by wafting to you, dear reader, whoever you are, (from amid the fresh scent of the grass, the pleasant coolness of the forenoon breeze, the lights and shades of tree-boughs silently dappling and playing around me, and the notes of the cat-bird for undertone and accompaniment,) my true good-will and love.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
+                    "d",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
-                    "d",
                     "d"
                 ]
             ]
@@ -1463,20 +1463,20 @@
     "75": [
         "Its surface glistened with a perfumed oil, and the rising steam smelled faintly of clove.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "o",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "o",
                     "d"
@@ -1487,18 +1487,18 @@
     "76": [
         "A dense smell of cooking pervaded the house; and it was not until the evening that Fanny Bowater appeared.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d",
                     "v"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d",
                     "v"
@@ -1509,22 +1509,22 @@
     "77": [
         "He wanted to sit at one of the red metallic tables on a plastic stool among a group of saffron robed monks, with the scents of rice or noodles penetrating his nostrils.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d",
-                    "v"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
                     "s"
+                ]
+            ],
+            "L": [
+                [
+                    "d",
+                    "v"
                 ]
             ]
         }
@@ -1532,20 +1532,20 @@
     "78": [
         "Why not put in the delicious scent of the &quot;life everlasting&quot; that yet lingers so profusely in every direction--the chromatic song of the one persevering locust (the insect is scarcer this fall and the past summer than for many years) beginning slowly, rising and swelling to much emphasis, and then abruptly falling--so appropriate to the scene, so quaint, so racy and suggestive in the warm sunbeams, we could sit here and look and listen for an hour?",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "d"
+                ]
+            ],
+            "L": [
                 [
                     "d",
                     "v"
-                ]
-            ],
-            "Inger": [
-                [
-                    "d"
                 ]
             ]
         }
@@ -1553,19 +1553,19 @@
     "79": [
         "It was a fresh sweet ocean morning, one of the fairest I remember; the wind, a tender fanning from the west, warm enough to make one fancy an odour and balm of the tropics in it, leagues ahead as those parallels yet lay.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
                     "d"
                 ]
             ]
@@ -1574,19 +1574,19 @@
     "80": [
         "In the middle of the night three soldiers, having brought some firewood, settled down near him and began lighting a fire.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -1594,50 +1594,50 @@
     "81": [
         "“He is the gentleman on the third floor.” Another step gained.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "82": [
         "The air was filled with the smell of death and burning flesh.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [],
-            "Inger": [
+            "I": [
                 [
                     "v",
                     "v"
                 ]
-            ]
+            ],
+            "L": []
         }
     ],
     "83": [
         "Horns, at that time sounded from all directions and Kumpee, the fetid one, at times irascibly chewed the fetid fruit called durian or slowly slurped from the beer can in his hands allowing the liquid in his mouth to spread and re-spread before swallowing.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d"
                 ]
@@ -1647,40 +1647,40 @@
     "84": [
         "&quot;Tell me which, Amelie!&quot;",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "85": [
         "The blossoms, like an odorous snow, covered the orchards and shed their perfume as far even as the city streets.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v",
                     "o"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "d",
                     "o",
                     "v"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -1688,19 +1688,19 @@
     "86": [
         "The forest surrounding the Abbey of Villiers sheltered these unfortunate people who had been scattered abroad, for many days and nights.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
-                [
-                    "u"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "u"
                 ]
             ]
         }
@@ -1708,23 +1708,23 @@
     "87": [
         "He recognized the same strange scent that had been wafted from behind Yasmini's silken hangings in her room in Delhi.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "v"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d",
-                    "v"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "d",
                     "v",
                     "o"
+                ]
+            ],
+            "L": [
+                [
+                    "d",
+                    "v"
                 ]
             ]
         }
@@ -1732,37 +1732,37 @@
     "88": [
         "You don’t know how important you are to me, how much you’ve done for me....” She spoke rapidly and did not notice how Pierre flushed at her words.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "89": [
         "As he passed her, he sensed her powerful presence and inhaled her musky perfume.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v",
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "v",
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "s",
+                    "v",
+                    "d"
+                ]
+            ],
+            "L": [
+                [
                     "v",
                     "d"
                 ]
@@ -1772,37 +1772,37 @@
     "90": [
         "The first person who came to meet the visitors was Mademoiselle Bourienne.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "91": [
         "Groves of trees lined the road on either side, and the sweet smell of pines was in our nostrils.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d"
                 ]
             ],
-            "Louisa": [
-                [
-                    "d"
-                ]
-            ],
-            "Inger": [
+            "I": [
                 [
                     "o",
                     "d",
                     "s"
+                ]
+            ],
+            "L": [
+                [
+                    "d"
                 ]
             ]
         }
@@ -1810,62 +1810,62 @@
     "92": [
         "And Sthirabuddhi slew Parakrama in fight with a javelin, and then fought with the eight Vasus enraged on account of his death.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "93": [
         "One more Unfortunate, Weary of breath, Rashly importunate, Gone to her death!",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "94": [
         "Where dreams were flowers, wild and wet, And beautiful as God._ _Not while I breathe, awake, adream, Shall live again for me those hours, When, in its mystery and gleam, I met her 'mid the flowers._ _Eyes, talismanic heliotrope, Beneath mesmeric lashes, where The sorceries of love and hope Had made a shining lair._ _And daydawn brows, whereover hung The twilight of dark locks; wild birds, Her lips, that spoke the rose's tongue In fragrance-voweled words._ _I will not speak of cheeks and chin, That held me as sweet language holds; Nor of the eloquence within Her breasts' twin-moonéd molds._ _Nor of her body's languorous Wind-grace, that glanced like starlight through Her clinging robe's diaphanous Web of the mist and dew._ _There is no star so pure and high As was her look; no fragrance such As her soft presence; and no sigh Of music like her touch._ _Not while I live may I forget That garden of dim dreams, where I And Song within the spirit met, Sweet Song, who passed me by._ POEMS OF MYSTERY HAUNTED I Without a moon when night comes on There is a sighing in its trees As of sad lips that no one sees; And the far-dwindling forest, large Beyond fenced fields, seems shadowy drawn Into its shadows.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "o",
                     "o"
                 ]
             ],
-            "Louisa": [
+            "I": [
+                [
+                    "d",
+                    "o",
+                    "o",
+                    "o",
+                    "o",
+                    "d",
+                    "o",
+                    "o",
+                    "o",
+                    "o"
+                ]
+            ],
+            "L": [
                 [
                     "u",
                     "s"
-                ]
-            ],
-            "Inger": [
-                [
-                    "d",
-                    "o",
-                    "o",
-                    "o",
-                    "o",
-                    "d",
-                    "o",
-                    "o",
-                    "o",
-                    "o"
                 ]
             ]
         }
@@ -1873,35 +1873,35 @@
     "95": [
         "THOU SHALT KNOW THIS DAY, THOU ENGLISHMAN, WHETHER OR NOT SHE TRULY LOVED THEE!",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "96": [
-        "Again I feel her lips like ice and fire, Her red lips, odorous as Arabian storax, Fragrance and fire, within whose kiss destruction Lies serpent-like.",
+        "Again I feel her lips like ice and fire, Her red lips, odorous as Arabian storax, Fragrancemight be part of previosu phrase and fire, within whose kiss destruction Lies serpent-like.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "d",
                     "o"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "d",
                     "o"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "d",
                     "o"
@@ -1912,20 +1912,20 @@
     "97": [
         "All things are touch'd with Melancholy, Born of the secret soul's mistrust, To feel her fair ethereal wings Weigh'd down with vile degraded dust; Even the bright extremes of joy Bring on conclusions of disgust, Like the sweet blossoms of the May, Whose fragrance ends in must.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "o",
                     "d"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
+                    "d",
                     "d"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
-                    "d",
                     "d"
                 ]
             ]
@@ -1934,33 +1934,33 @@
     "98": [
         "It would be certain to have charms for me; and I'll exchange with you.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "u"
                 ]
             ],
-            "Louisa": [
+            "I": [],
+            "L": [
                 [
                     "u"
                 ]
-            ],
-            "Inger": []
+            ]
         }
     ],
     "99": [
         "In the passage I could smell nothing; but--&quot; He paused, glancing at his father.",
         {
-            "Marieke": [
+            "M": [
                 [
                     "v"
                 ]
             ],
-            "Louisa": [
+            "I": [
                 [
                     "v"
                 ]
             ],
-            "Inger": [
+            "L": [
                 [
                     "v"
                 ]
