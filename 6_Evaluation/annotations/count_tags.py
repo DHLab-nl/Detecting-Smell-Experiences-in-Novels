@@ -2,7 +2,7 @@
 """
 import json
 
-from collections import Counter
+from collections import Counter, defaultdict
 
 
 def main():
@@ -17,10 +17,10 @@ def main():
         for annotator in annotations[set_key]:
             for entry in annotations[set_key][annotator]:
                 text = entry[0][1]
-                save[text] = []
 
-                tags = list(set([(tag, span) for tag, span in entry[0][2]]))
-                save[text] += tags
+                if text not in save.keys():
+                    save[text] = []
+                save[text] += entry[0][2]  # += [(tag, span),...]
 
     # collect and print
     output = Counter()
@@ -29,9 +29,6 @@ def main():
             output[tag] += 1
 
     print(output)
-
-
-
 
 if __name__ == "__main__":
     main()
